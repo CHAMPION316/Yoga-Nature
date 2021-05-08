@@ -15,10 +15,26 @@ h1 {
     color: skyblue;
 }
 
-.main-windows {
-    width: 300px;
-    height: 700px;
-    margin-top: 2rem;
-    background-color: skyblue;
-    display: inline-block;
+#main-hub {
+    height: 800px;
+}
+
+#left-portal {
+    padding-top: 40px;
+    width: 33%;
+    float: left; 
+    background-color: rgb(34, 158, 207);
+}
+
+#right-portal {
+    padding-top: 40px;
+    width: 33%;
+    float: right;
+    background-color: rgb(131, 207, 17);
+}
+
+#center-portal {
+    width: 33%;
+    margin: 0 auto;
+    background-color: rgb(224, 38, 131);
 }

@@ -47,7 +47,7 @@ body {
 }
 
 #main-hub {
-    height: 350px;
+    height: 800px;
     /*background-color: rgb(213, 207, 218);*/
 }
 
@@ -61,13 +61,6 @@ body {
     background: url('../images/pexels-elly-fairytale-3822633.jpg');
     background-position: center;
     background-size: 150% 150%;
-
-}
-
-#left-portal-text {
-    margin-left: 20px 0 0 70px;
-    clear: left;
-    display: inline-block;
 }
 
 #right-portal {
@@ -99,21 +92,21 @@ body {
     background-size: 150% 150%;
 }
 
-#portal-text-holder {
-    clear: left;
+#main-hub2 {
+    height: 800px;
 }
 
-#text-1 {
-    float: left;
-    margin-left: 20px;
+#left-side {
+    height: 500px;
+    width: 33%;
+    margin-left: 70px;
+    background-color: crimson;
 }
 
-#text-2 {
-    float: right;
-    margin-right: 20px;
-}
-
-#text-3 {
-    margin: auto 0 auto 50px;
-
+#crazy-man {
+    height: 350px;
+    width: 80%;
+    background-color: cyan;
+    margin: 20px auto;
+    position: relative;
 }

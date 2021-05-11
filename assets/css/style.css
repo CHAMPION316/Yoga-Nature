@@ -47,8 +47,8 @@ body {
 }
 
 #main-hub {
-    height: 800px;
-    background-color: rgb(213, 207, 218);
+    height: 350px;
+    /*background-color: rgb(213, 207, 218);*/
 }
 
 #left-portal {
@@ -62,6 +62,12 @@ body {
     background-position: center;
     background-size: 150% 150%;
 
+}
+
+#left-portal-text {
+    margin-left: 20px 0 0 70px;
+    clear: left;
+    display: inline-block;
 }
 
 #right-portal {
@@ -91,4 +97,23 @@ body {
     background: url('../images/pexels-karolina-grabowska-4203069.jpg');
     background-position: center bottom;
     background-size: 150% 150%;
+}
+
+#portal-text-holder {
+    clear: left;
+}
+
+#text-1 {
+    float: left;
+    margin-left: 20px;
+}
+
+#text-2 {
+    float: right;
+    margin-right: 20px;
+}
+
+#text-3 {
+    margin: auto 0 auto 50px;
+
 }

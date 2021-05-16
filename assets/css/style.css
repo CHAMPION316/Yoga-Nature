@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Varela+Round&display=swap');
 
 * {
     margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'Varela Round', sans-serif;
+    font-family: sans-serif;
     font-weight: 350px;
     color: black;
 }
@@ -75,7 +75,7 @@ body {
 
 
 #cover-text {
-    font-size: 220%;
+    /*font-size: 100%;*/
     font-family: 'Valera Round' sans-serif;
     width: 500px;
     height: 360px;
@@ -86,13 +86,25 @@ body {
     right: 100px;
     position: absolute;
 }
+
+#logo {
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 300%;
+    color:#ffaa00;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 #main-hub {
     height: 800px;
+    width: 90%;
+    background-color: #ffdd97;
+    margin-left: 5%;
 }
 
-#left-portal {
+/*#left-portal {
     padding-top: 40px;
     height: 350px;
     width: 25%;
@@ -106,32 +118,28 @@ body {
 
 #right-portal {
     padding-top: 40px;
-    /*old height*/
-    /*height: 600px;*/
     height: 350px;
     margin-right: 70px;
-    /*old width*/
-    /*width: 31%;*/
     width: 25%;
     float: right;
     background-color: rgb(131, 207, 17);
     background: url('../images/pexels-pixabay-355863.jpg');
     background-position: center;
     background-size: 150% 150%;
-}
+}*/
 
-#center-portal {
+/*#center-portal {
     padding-top: 40px;
     height: 350px;
-    width: 25%;
+    width: 25%;*/
     
     /* Margin below applies to all 3 divs */
-    margin: 20px auto;
+    /*margin: 20px auto;
     background-color: rgb(224, 38, 131);
     background: url('../images/pexels-karolina-grabowska-4203069.jpg');
     background-position: center bottom;
     background-size: 150% 150%;
-}
+}*/
 
 #main-hub2 {
     height: 800px;

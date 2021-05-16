@@ -29,6 +29,15 @@ body {
     position: relative;
 }
 
+#map li {
+    float: left;
+    list-style-type: none;
+}
+
+#map a {
+    text-decoration: none;
+}
+
 #cover-text > h2 {
     font-size: 220%;
     font-family: Lobster;

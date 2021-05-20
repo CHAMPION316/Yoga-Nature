@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Varela+Round&display=swap');
 
 * {
     margin: 0;
@@ -80,16 +80,16 @@ body {
     position: absolute;
     top: 50px;
     left: 428.845px;
-    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Dancing Script', cursive;
     font-size: 300%;
-    color:#dd2aa1;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: black;
+    /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
 }
 
 #me {
     width: 100%;
     height: 800px;
-    background-color: rgb(255, 170, 0);
+    background-color: #dd2aa1;
     position: relative;
 }
 

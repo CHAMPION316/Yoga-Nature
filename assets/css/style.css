@@ -13,12 +13,11 @@ body {
 }
 
 #head-image {
-    height: 400px;
+    height: 450px;
     width: 100%;
-    padding-bottom: 100px;
     /*margin: 0 0;*/
-    background: url('../images/pexels-eternal-happiness-3326362.jpg');
-    background-position: center bottom;
+    background: url('../images/pexels-michelle-still-creates-4630901.jpg') no-repeat;
+    background-position: center;
     background-size: cover;
     position: relative;
 }
@@ -65,41 +64,53 @@ body {
 }
 
 #cover-text {
-    /*font-size: 100%;*/
+    /*font-size: 100%;
     font-family: 'Valera Round' sans-serif;
     width: 530px;
     height: 145px;
     padding-top: 0;
     padding-left: 10px;
-    background-color: rgba(255, 170, 0, .5);
+    background-color: rgba(255, 170, 0, .3);
     top: 230px;
-    right: 40px;
-    position: absolute;
-}
-
-#cover-text p {
-    line-height: 110%;
-    font-size: 20px;
-    margin-top: 10px;
+    right: 40px;*/
+    position: relative;
 }
 
 #logo {
     position: absolute;
-    top: 80px;
-    left: 50px;
+    top: 50px;
+    left: 428.845px;
     font-family: 'Fredericka the Great', cursive;
     font-size: 300%;
-    color:#ffaa00;
+    color:#dd2aa1;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-#main-hub {
+#me {
+    width: 100%;
+    height: 800px;
+    background-color: rgb(255, 170, 0);
+    position: relative;
+}
+
+#emelie-image {
+    width: 25%;
+    height: 400px;
+    background-color: white;
+    background:url(../images/emelie_sandberg.jpg) no-repeat center;
+    position: absolute;
+    margin-top: 70px; 
+    margin-left: 40px;
+    
+}
+
+/*#main-hub {
     height: 800px;
     width: 100%;
     background-color: #ffdd97;
 }
 
-/*#left-portal {
+#left-portal {
     padding-top: 40px;
     height: 350px;
     width: 25%;
@@ -121,12 +132,13 @@ body {
     background: url('../images/pexels-pixabay-355863.jpg');
     background-position: center;
     background-size: 150% 150%;
-}*/
+}
 
-/*#center-portal {
+#center-portal {
     padding-top: 40px;
     height: 350px;
-    width: 25%;*/
+    width: 25%;
+}*/
     
     /* Margin below applies to all 3 divs */
     /*margin: 20px auto;
@@ -134,7 +146,7 @@ body {
     background: url('../images/pexels-karolina-grabowska-4203069.jpg');
     background-position: center bottom;
     background-size: 150% 150%;
-}*/
+}
 
 #main-hub2 {
     height: 800px;

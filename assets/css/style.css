@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Domine:wght@500&family=Permanent+Marker&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Caveat&family=Dancing+Script&display=swap');
 
 * {
     margin: 0;
@@ -16,9 +16,7 @@ body {
     width: 100%;
     height: 40px;
     background-color: rgb(197,140,90);
-    position: fixed;
-    top: 0;
-    left: 0;
+    position: relative;
 }
 
 #head-image {
@@ -97,7 +95,7 @@ body {
 
 #me {
     width: 100%;
-    height: 700px;
+    height: 600px;
     background-color: rgb(197,140,90);
     position: relative;
 }
@@ -107,10 +105,37 @@ body {
     height: 400px;
     background-color: white;
     background:url('../images/emelie_sandberg.jpg') no-repeat center;
-    position: absolute;
+    /*position: absolute;
     margin-top: 70px; 
-    margin-left: 40px;
-    
+    margin-left: 40px;*/
+    float: left;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+#emelie-bio {
+    width: 35%;
+    height: 400px;
+    background-color: rgb(241, 231, 201);
+    /*position: absolute;
+    margin-top: 70px;
+    margin-left: 378px;*/
+    float: left;
+    margin-top: 40px;
+}
+
+#emelie-bio > h3 {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 200%;
+}
+
+#emelie-bio > p {
+    width: 80%;
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 10px;
+    font-size: 100%;
 }
 
 /*#main-hub {

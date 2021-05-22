@@ -70,8 +70,8 @@ body {
     color: #ffffff;
 }
 
-#cover-text {
-    /*font-size: 100%;
+/*#cover-text {
+    /ont-size: 100%;
     font-family: 'Valera Round' sans-serif;
     width: 530px;
     height: 145px;
@@ -79,9 +79,9 @@ body {
     padding-left: 10px;
     background-color: rgba(255, 170, 0, .3);
     top: 230px;
-    right: 40px;*/
+    right: 40px;
     position: relative;
-}
+}*/
 
 #logo {
     position: absolute;
@@ -143,13 +143,48 @@ body {
     font-size: 100%;
 }
 
-/*#main-hub {
-    height: 800px;
+#main-hub {
+    height: 600px;
     width: 100%;
-    background-color: #ffdd97;
+    background-color: #47b49d;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  height: 480px;
+  width: 250px;
+  margin: 20px;
+ /*padding: 20px;*/
+  font-size: 30px;
+}
+
+.portal-styles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portal-styles > h5 {
+    background-color: white;
+    align-self: flex-end;
 }
 
 #left-portal {
+    background: url('../images/pexels-prince-kumar-2421467.jpg') no-repeat center center;
+}
+
+#right-portal {
+    background: url('../images/pexels-cottonbro-3779021.jpg') no-repeat center center;
+}
+
+
+/*left-portal {
     padding-top: 40px;
     height: 350px;
     width: 25%;
@@ -159,9 +194,9 @@ body {
     background: url('../images/pexels-elly-fairytale-3822633.jpg');
     background-position: center;
     background-size: 150% 150%;
-}
+}*/
 
-#right-portal {
+/*#right-portal {
     padding-top: 40px;
     height: 350px;
     margin-right: 70px;
@@ -177,31 +212,13 @@ body {
     padding-top: 40px;
     height: 350px;
     width: 25%;
+    margin: 0 auto;
+    
 }*/
     
-    /* Margin below applies to all 3 divs */
-    /*margin: 20px auto;
+    /*Margin below applies to all 3 divs 
+    margin: 20px auto;
     background-color: rgb(224, 38, 131);
     background: url('../images/pexels-karolina-grabowska-4203069.jpg');
     background-position: center bottom;
-    background-size: 150% 150%;
-}
-
-#main-hub2 {
-    height: 800px;
-}
-
-#left-side {
-    height: 500px;
-    width: 33%;
-    margin-left: 70px;
-    background-color: crimson;
-}
-
-#crazy-man {
-    height: 350px;
-    width: 80%;
-    background-color: cyan;
-    margin: 20px auto;
-    position: relative;
-}
+    background-size: 150% 150%;*/

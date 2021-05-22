@@ -98,6 +98,17 @@ body {
     height: 600px;
     background-color: rgb(197,140,90);
     position: relative;
+    font-family: inherit;
+}
+
+#about-me {
+    float: left;
+    position: absolute;
+    transform: rotate(-30deg);
+    font-family: 'Dancing Script', cursive;
+    margin-top: 80px;
+    margin-left: 220px;
+    font-size: 100px;
 }
 
 #emelie-image {
@@ -105,22 +116,16 @@ body {
     height: 400px;
     background-color: white;
     background:url('../images/emelie_sandberg.jpg') no-repeat center;
-    /*position: absolute;
-    margin-top: 70px; 
-    margin-left: 40px;*/
-    float: left;
+    float: right;
     margin-top: 40px;
-    margin-left: 100px;
+    margin-right: 40px;
 }
 
 #emelie-bio {
-    width: 35%;
+    width: 30%;
     height: 400px;
     background-color: rgb(241, 231, 201);
-    /*position: absolute;
-    margin-top: 70px;
-    margin-left: 378px;*/
-    float: left;
+    float: right;
     margin-top: 40px;
 }
 

@@ -16,7 +16,8 @@ body {
     width: 100%;
     height: 40px;
     background-color: rgb(197,140,90);
-    position: relative;
+    position: fixed;
+    z-index: 1;
 }
 
 #head-image {
@@ -158,7 +159,7 @@ body {
 .flex-container > div {
   background-color: #f1f1f1;
   height: 480px;
-  width: 250px;
+  width: 280px;
   margin: 20px;
  /*padding: 20px;*/
   font-size: 30px;
@@ -176,11 +177,18 @@ body {
 }
 
 #left-portal {
-    background: url('../images/pexels-prince-kumar-2421467.jpg') no-repeat center center;
+    background-image: url('../images/pexels-prince-kumar-2421467.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*width: 100%;*/
 }
 
 #right-portal {
-    background: url('../images/pexels-cottonbro-3779021.jpg') no-repeat center center;
+    background-image: url('../images/pexels-cottonbro-3779021.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 

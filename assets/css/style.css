@@ -38,7 +38,7 @@ body {
 }
 
 #map a {
-    text-transform: uppercase;
+    text-transform: capitalize;
     text-decoration: none;
     font-family: 'Valera round', sans-serif;
     font-weight: 530;
@@ -71,18 +71,18 @@ body {
     color: #2c9c21;
 }
 
-/*#cover-text {
-    /ont-size: 100%;
-    font-family: 'Valera Round' sans-serif;
+#cover-text {
+    font-size: 100%;
+    font-family: sans-serif;
     width: 530px;
     height: 145px;
     padding-top: 0;
     padding-left: 10px;
-    background-color: rgba(255, 170, 0, .3);
+    background-color: rgba(39, 156, 35, 0.63);
     top: 230px;
     right: 40px;
-    position: relative;
-}*/
+    position: absolute;
+}
 
 #logo {
     position: absolute;
@@ -151,7 +151,7 @@ body {
 }
 
 #main-hub {
-    height: 650px;
+    height: 600px;
     width: 100%;
     background-image: url('../images/pexels-pixabay-355321.jpg');
     background-attachment: fixed;
@@ -212,17 +212,19 @@ body {
 }
 
 .flex-description > div {
-    background-color: white;
     height: 100px;
     width: 540px;
     margin-top: 5px;
-
 }
 
-.flex-description > div > p {
+.flex-description > .portal-styles {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.flex-description > .portal-styles > p {
     background-color: white;
-    align-self: center;
-    margin-bottom: 5px;
+    font-size: 130%;
 }
 
 

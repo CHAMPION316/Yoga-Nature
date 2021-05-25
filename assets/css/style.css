@@ -85,6 +85,7 @@ body {
 
 #cover-text > h3 {
     text-align: center;
+    font-family: 'Caveat', sans-serif;
 }
 
 #cover-text > p {
@@ -171,6 +172,7 @@ body {
 .flex-container {
     display: flex;
     justify-content: space-evenly;
+    background-color: rgba(202, 193, 176, 0.7);
 }
 
 .flex-container > a {
@@ -219,6 +221,7 @@ body {
 .flex-description {
     display: flex;
     justify-content: space-evenly;
+    background-color: rgba(202, 193, 176, 0.7);
 }
 
 .flex-description > div {

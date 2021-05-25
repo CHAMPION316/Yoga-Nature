@@ -15,7 +15,7 @@ body {
 #container {
     width: 100%;
     height: 40px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(241, 231, 201);
     position: fixed;
     z-index: 1;
 }
@@ -77,9 +77,9 @@ body {
     width: 530px;
     height: 145px;
     padding: 5px 10px;
-    background-color: rgba(39, 156, 35, 0.63);
+    background-color: rgba(241, 231, 201, 0.71);
     top: 230px;
-    left: 80px;
+    left: 16px;
     position: absolute;
 }
 
@@ -104,11 +104,11 @@ body {
 
 #me {
     width: 100%;
-    height: 560px;
+    height: 450px;
     /*background-image: url('../images/pexels-sameera-madusanka-1572036.jpg');*/
     position: relative;
     font-family: inherit;
-    background-color: rgba(46, 107, 27, 0.767)
+    background-color: rgb(202, 193, 176);
 }
 
 /*#cover-color {
@@ -128,26 +128,26 @@ body {
 }
 
 #emelie-image {
-    width: 25%;
-    height: 400px;
+    width: 20%;
+    height: 360px;
     background-color: white;
     background:url('../images/emelie_sandberg.jpg') no-repeat center;
     float: right;
-    margin-top: 40px;
+    margin-top: 45px;
     margin-right: 40px;
 }
 
 #emelie-bio {
-    width: 30%;
-    height: 400px;
+    width: 20%;
+    height: 360px;
     background-color: rgb(241, 231, 201);
     float: right;
-    margin-top: 40px;
+    margin-top: 45px;
 }
 
 #emelie-bio > h3 {
     text-align: center;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Caveat', cursive;
     font-size: 200%;
 }
 
@@ -155,13 +155,13 @@ body {
     width: 80%;
     text-align: left;
     margin-left: 5%;
-    margin-top: 10px;
-    font-size: 160%;
-    line-height: 120%;
+    margin-top: 2px;
+    font-size: 120%;
+    line-height: 138%;
 }
 
 #main-hub {
-    height: 600px;
+    height: 450px;
     width: 100%;
     background-image: url('../images/pexels-pixabay-355321.jpg');
     background-attachment: fixed;
@@ -222,7 +222,7 @@ body {
 }
 
 .flex-description > div {
-    height: 100px;
+    height: 50px;
     width: 540px;
     margin-top: 5px;
 }

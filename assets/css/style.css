@@ -76,12 +76,20 @@ body {
     font-family: sans-serif;
     width: 530px;
     height: 145px;
-    padding-top: 0;
-    padding-left: 10px;
+    padding: 5px 10px;
     background-color: rgba(39, 156, 35, 0.63);
     top: 230px;
-    right: 40px;
+    left: 80px;
     position: absolute;
+}
+
+#cover-text > h3 {
+    text-align: center;
+}
+
+#cover-text > p {
+    text-align: left;
+    line-height: 140%;
 }
 
 #logo {
@@ -96,17 +104,18 @@ body {
 
 #me {
     width: 100%;
-    height: 600px;
+    height: 560px;
     /*background-image: url('../images/pexels-sameera-madusanka-1572036.jpg');*/
     position: relative;
     font-family: inherit;
+    background-color: rgba(46, 107, 27, 0.767)
 }
 
-#cover-color {
+/*#cover-color {
     width: inherit;
     height: inherit;
     background-color: rgba(46, 107, 27, 0.767) !important;
-}
+}*/
 
 #about-me {
     float: left;
@@ -147,7 +156,8 @@ body {
     text-align: left;
     margin-left: 5%;
     margin-top: 10px;
-    font-size: 130%;
+    font-size: 160%;
+    line-height: 120%;
 }
 
 #main-hub {

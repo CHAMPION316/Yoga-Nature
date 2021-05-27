@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Allura&family=Caveat&family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mallanna&family=Rajdhani:wght@300&display=swap');
 
 * {
     margin: 0;
@@ -31,7 +31,7 @@ body {
     height: 450px;
     width: 100%;
     margin: 0 0;
-    background: url('../images/pexels-pixabay-414171.jpg') no-repeat;
+    background: url('../images/pexels-lumn-167684.jpg') no-repeat;
     background-position: center;
     background-size: cover;
     position: relative;
@@ -41,13 +41,13 @@ body {
     float: left;
     list-style-type: none;
     margin-left: 15px;
-    margin-top: 5px;
+    margin-top: -4px;
 }
 
 #map a {
     text-transform: capitalize;
     text-decoration: none;
-    font-family: 'Valera round', sans-serif;
+    font-family: 'Mallanna', sans-serif;
     font-weight: 530;
     color: inherit;
     /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
@@ -56,7 +56,6 @@ body {
 }
 
 #inside-map a:hover {
-    border-bottom: 1px solid #2c9c21;
     color: #65b981;
 }
 
@@ -92,7 +91,7 @@ body {
 
 #cover-text > h3 {
     text-align: center;
-    font-family: 'Caveat', sans-serif;
+    font-family: 'Mallanna', sans-serif;
 }
 
 #cover-text > p {
@@ -104,7 +103,7 @@ body {
     position: absolute;
     top: 30px;
     left: 538.2385px;
-    font-family: 'Caveat', cursive;
+    font-family: 'Rajdhani', sans-serif;
     font-size: 250%;
     color: rgb(0, 0, 0);
     /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
@@ -129,7 +128,7 @@ body {
     float: left;
     position: absolute;
     transform: rotate(-30deg);
-    font-family: 'Caveat', cursive;
+    font-family: 'Mallanna', sans-serif;
     margin-top: 150px;
     margin-left: 86px;
     font-size: 115px;
@@ -155,7 +154,7 @@ body {
 
 #emelie-bio > h3 {
     text-align: center;
-    font-family: 'Caveat', cursive;
+    font-family: 'Mallanna', sans-serif;
     font-size: 200%;
 }
 

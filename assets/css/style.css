@@ -111,7 +111,7 @@ body {
 
 #me {
     width: 100%;
-    height: 450px;
+    height: 600px;
     /*background-image: url('../images/pexels-sameera-madusanka-1572036.jpg');*/
     position: relative;
     font-family: inherit;
@@ -124,7 +124,7 @@ body {
     background-color: rgba(46, 107, 27, 0.767) !important;
 }*/
 
-#about-me {
+/*#about-me {
     float: left;
     position: absolute;
     transform: rotate(-30deg);
@@ -132,6 +132,22 @@ body {
     margin-top: 150px;
     margin-left: 86px;
     font-size: 115px;
+}*/
+
+#square-1 {
+    position: absolute;
+    height: 190px;
+    width: 160px;
+    background-color: rgb(172, 214, 195);
+    margin: 300px 0 0 90px;
+}
+
+#square-2 {
+    position: absolute;
+    height: 190px;
+    width: 160px;
+    background-color: rgb(204, 154, 189);
+    margin: 111px 0 0 220px;
 }
 
 #emelie-image {
@@ -139,18 +155,27 @@ body {
     height: 360px;
     background-color: white;
     background:url('../images/emelie_sandberg.jpg') no-repeat center;
-    float: right;
-    margin-top: 45px;
-    margin-right: 40px;
+    position: absolute;
+    /*float: left;*/
+    margin-top: 120px;
+    margin-left: 100px;
 }
 
 #emelie-bio {
     width: 20%;
     height: 360px;
     background-color: rgb(241, 231, 201);
+    margin-top: 45px;
+    float: right;
+}
+
+/*#emelie-bio {
+    width: 20%;
+    height: 360px;
+    background-color: rgb(241, 231, 201);
     float: right;
     margin-top: 45px;
-}
+}*/
 
 #emelie-bio > h3 {
     text-align: center;
@@ -246,6 +271,8 @@ body {
     font-size: 140%;
 }
 
+
+/* sign-up page */
 #sign-up {
     position: relative;
     margin-top: 10px;
@@ -305,44 +332,3 @@ body {
 .join-button:hover {
     color: #f16c6b;
 }
-
-
-
-/*left-portal {
-    padding-top: 40px;
-    height: 350px;
-    width: 25%;
-    margin-left: 70px;
-    float: left; 
-    background-color: rgb(34, 158, 207);
-    background: url('../images/pexels-elly-fairytale-3822633.jpg');
-    background-position: center;
-    background-size: 150% 150%;
-}*/
-
-/*#right-portal {
-    padding-top: 40px;
-    height: 350px;
-    margin-right: 70px;
-    width: 25%;
-    float: right;
-    background-color: rgb(131, 207, 17);
-    background: url('../images/pexels-pixabay-355863.jpg');
-    background-position: center;
-    background-size: 150% 150%;
-}
-
-#center-portal {
-    padding-top: 40px;
-    height: 350px;
-    width: 25%;
-    margin: 0 auto;
-    
-}*/
-    
-    /*Margin below applies to all 3 divs 
-    margin: 20px auto;
-    background-color: rgb(224, 38, 131);
-    background: url('../images/pexels-karolina-grabowska-4203069.jpg');
-    background-position: center bottom;
-    background-size: 150% 150%;*/

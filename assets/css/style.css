@@ -101,12 +101,18 @@ body {
 
 #logo {
     position: absolute;
-    top: 30px;
+    /*top: 30px;*/
+    top: 50px;
     left: 538.2385px;
     font-family: 'Rajdhani', sans-serif;
     font-size: 250%;
     color: rgb(0, 0, 0);
+    border: 3px solid black;
     /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+}
+
+#logo, h1 {
+    padding: 5px;
 }
 
 #me {
@@ -115,7 +121,8 @@ body {
     /*background-image: url('../images/pexels-sameera-madusanka-1572036.jpg');*/
     position: relative;
     font-family: inherit;
-    background-color: rgb(202, 193, 176);
+    background-color: rgb(241, 231, 201);
+    /*background-color: white;*/
 }
 
 /*#cover-color {
@@ -158,12 +165,13 @@ body {
     position: absolute;
     /*float: left;*/
     margin-top: 120px;
-    margin-left: 100px;
+    margin-left: 50px;
+    border: 5px solid #3fb185;
 }
 
 #emelie-name {
     position: absolute;
-    margin: 100px 0 0 300px;
+    margin: 100px 0 0 500px;
 }
 
 
@@ -171,15 +179,19 @@ body {
     text-transform: capitalize;
     /*transform: rotate(-30deg);*/
     font-family: 'Rajdhani', sans-serif;
-    font-size: 150%;
-    color: #41915c 
+    /*text-shadow: -1px 0 pink, 0 1px pink, 1px 0 pink, 0 -1px pink;*/
+    font-size: 200%;
+    color: white; 
+    background-color: #3fb185;
+    padding: 5px;
 }
 
 #emelie-bio {
     width: 20%;
     /*background-color: rgb(241, 231, 201);*/
     position: absolute;
-    margin: 144px 0 0 500px;
+    /*margin: 144px 0 0 500px;*/
+    margin: 200px 0 0 500px;
     
 }
 

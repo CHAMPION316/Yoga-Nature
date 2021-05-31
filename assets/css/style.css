@@ -134,7 +134,7 @@ body {
     font-size: 115px;
 }*/
 
-#square-1 {
+/*#square-1 {
     position: absolute;
     height: 190px;
     width: 160px;
@@ -148,7 +148,7 @@ body {
     width: 160px;
     background-color: rgb(204, 154, 189);
     margin: 111px 0 0 220px;
-}
+}*/
 
 #emelie-image {
     width: 20%;
@@ -161,33 +161,41 @@ body {
     margin-left: 100px;
 }
 
-#emelie-bio {
-    width: 20%;
-    height: 360px;
-    background-color: rgb(241, 231, 201);
-    margin-top: 45px;
-    float: right;
+#emelie-name {
+    position: absolute;
+    margin: 100px 0 0 300px;
 }
 
-/*#emelie-bio {
-    width: 20%;
-    height: 360px;
-    background-color: rgb(241, 231, 201);
-    float: right;
-    margin-top: 45px;
-}*/
 
-#emelie-bio > h3 {
+#emelie-name > h3 {
+    text-transform: capitalize;
+    /*transform: rotate(-30deg);*/
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 150%;
+    color: #41915c 
+}
+
+#emelie-bio {
+    width: 20%;
+    /*background-color: rgb(241, 231, 201);*/
+    position: absolute;
+    margin: 144px 0 0 500px;
+    
+}
+
+
+/*#emelie-bio > h3 {
     text-align: center;
     font-family: 'Mallanna', sans-serif;
     font-size: 200%;
-}
+}*/
 
 #emelie-bio > p {
     width: 80%;
-    text-align: left;
-    margin-left: 5%;
-    margin-top: 2px;
+    text-align: center;
+    /*background-color:rgb(172, 214, 195);*/
+    /*margin-left: 5%;
+    margin-top: 2px;*/
     font-size: 120%;
     line-height: 138%;
 }

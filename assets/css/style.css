@@ -103,16 +103,16 @@ body {
     position: absolute;
     /*top: 30px;*/
     top: 50px;
-    left: 538.2385px;
+    left: 470.371px;
     font-family: 'Rajdhani', sans-serif;
-    font-size: 250%;
+    font-size: 229%;
     color: rgb(0, 0, 0);
     border: 3px solid black;
     /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
 }
 
 #logo, h1 {
-    padding: 5px;
+    padding: 3px;
 }
 
 #me {

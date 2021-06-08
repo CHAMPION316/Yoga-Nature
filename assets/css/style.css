@@ -353,3 +353,16 @@ body {
 .join-button:hover {
     color: #f16c6b;
 }
+
+/* videos.html */
+
+#videos-background {
+    width: 100%;
+    height: 762px;
+    background-image: url('../images/pexels-eberhard-grossgasteiger-629161.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    z-index: 1;
+}

@@ -364,5 +364,18 @@ body {
     background-size: cover;
     background-position: center;
     position: fixed;
-    z-index: 1;
+}
+
+#videos-opacity {
+    width: inherit;
+    height: inherit;
+    background-color: rgba(166, 222, 163, 0.2);
+    position: fixed;
+}
+
+#videos-text {
+    width: inherit;
+    height: inherit;
+    position: static;
+    margin-top: 30px;
 }

@@ -84,9 +84,9 @@ body {
     height: 145px;
     padding: 5px 10px;
     background-color: rgba(241, 231, 201, 0.71);
+    position: absolute;
     top: 230px;
     left: 16px;
-    position: absolute;
 }
 
 #cover-text > h3 {
@@ -358,24 +358,48 @@ body {
 
 #videos-background {
     width: 100%;
-    height: 762px;
+    height: 760px;
     background-image: url('../images/pexels-eberhard-grossgasteiger-629161.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    position: fixed;
+    /*position: fixed;*/
 }
 
 #videos-opacity {
     width: inherit;
     height: inherit;
     background-color: rgba(166, 222, 163, 0.2);
-    position: fixed;
+    position: relative;
 }
 
-#videos-text {
-    width: inherit;
-    height: inherit;
-    position: static;
-    margin-top: 30px;
+/*#videos-text {
+    position: absolute;
+    width: 300px;
+    height: 600px;
+    margin: 30px 0 0 30px;
+}*/
+
+/*#color-1 {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    width: 300px;
+    height: 100px;
+    margin: 30px 0 0 30px;
+    background-color: red;
+}*/
+
+#color-2 {
+    position: absolute;
+    top: 70px;
+    left: 60px;
+    /*width: 300px;
+    height: 100px;*/
+    /*margin: 30px 0 0 30px;*/
+    background-color: greenyellow;
+}
+
+#color-2 > p {
+    background-color: hotpink;
 }

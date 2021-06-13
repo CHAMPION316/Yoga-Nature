@@ -18,6 +18,7 @@ body {
     background-color: rgb(241, 231, 201);
     position: fixed;
     z-index: 1;
+    border-bottom: solid 2px white;
 }
 
 #container-2 {
@@ -141,8 +142,9 @@ body {
     font-size: 115px;
 }*/
 
-/*#emelie-image {
-    width: 20%;
+#emelie-image {
+    position: absolute;
+    /*width: 20%;
     height: 360px;
     background-color: white;
     background:url('../images/emelie_sandberg.jpg') no-repeat center;
@@ -150,16 +152,17 @@ body {
     float: left;
     margin-top: 120px;
     margin-left: 50px;
-    border: 5px solid #3fb185;
-}*/
+    border: 5px solid #3fb185;*/
+}
 
 #emelie-image > img {  
-    margin: 40px 0 0 30px;
+    margin: 150px 0 0 271px;
+    border: solid 2px #3fb185;
 }
 
 #emelie-name {
     position: absolute;
-    margin: 120px 0 0 500px;
+    margin: 120px 0 0 710px;
 }
 
 
@@ -179,7 +182,7 @@ body {
     /*background-color: rgb(241, 231, 201);*/
     position: absolute;
     /*margin: 144px 0 0 500px;*/
-    margin: 200px 0 0 500px;    
+    margin: 200px 0 0 710px;    
 }
 
 

@@ -17,7 +17,7 @@ body {
     height: 40px;
     background-color: rgb(241, 231, 201);
     position: fixed;
-    z-index: 1;
+    z-index: 3;
     border-bottom: solid 2px white;
 }
 
@@ -84,7 +84,7 @@ body {
     width: 530px;
     height: 145px;
     padding: 5px 10px;
-    background-color: rgba(241, 231, 201, 0.71);
+    background-color: rgba(157, 218, 194, 0.7);
     position: absolute;
     top: 230px;
     left: 16px;
@@ -126,38 +126,35 @@ body {
     /*background-color: white;*/
 }
 
-/*#cover-color {
-    width: inherit;
-    height: inherit;
-    background-color: rgba(46, 107, 27, 0.767) !important;
-}*/
-
-/*#about-me {
-    float: left;
+#instructor {
     position: absolute;
-    transform: rotate(-30deg);
-    font-family: 'Mallanna', sans-serif;
-    margin-top: 150px;
-    margin-left: 86px;
-    font-size: 115px;
-}*/
+    color: black;
+    background-color: #9ddac2;
+    font-family: "Rajdhani";
+    font-size: 220%;
+    padding: 10px;
+    margin: 115px 0 0 169px;
+    transform: rotate(-32deg);
+    z-index: 1;
+}
+
+#border-green {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border: 5px solid #9ddac2;
+    margin: 147px 0 0 268px;
+    animation: roll 3s infinite;
+    transform: rotate(30deg);
+}
 
 #emelie-image {
     position: absolute;
-    /*width: 20%;
-    height: 360px;
-    background-color: white;
-    background:url('../images/emelie_sandberg.jpg') no-repeat center;
-    position: absolute;
-    float: left;
-    margin-top: 120px;
-    margin-left: 50px;
-    border: 5px solid #3fb185;*/
 }
 
 #emelie-image > img {  
     margin: 150px 0 0 271px;
-    border: solid 2px #3fb185;
+    border: solid 2px #9ddac2;
 }
 
 #emelie-name {
@@ -172,34 +169,41 @@ body {
     font-family: 'Rajdhani', sans-serif;
     /*text-shadow: -1px 0 pink, 0 1px pink, 1px 0 pink, 0 -1px pink;*/
     font-size: 200%;
-    color: white; 
-    background-color: #3fb185;
+    color: black; 
+    background-color: #9ddac2;
     padding: 5px;
 }
 
 #emelie-bio {
     width: 20%;
-    /*background-color: rgb(241, 231, 201);*/
     position: absolute;
-    /*margin: 144px 0 0 500px;*/
     margin: 200px 0 0 710px;    
 }
 
-
-/*#emelie-bio > h3 {
-    text-align: center;
-    font-family: 'Mallanna', sans-serif;
-    font-size: 200%;
-}*/
-
 #emelie-bio > p {
-    width: 80%;
-    text-align: center;
-    /*background-color:rgb(172, 214, 195);*/
-    /*margin-left: 5%;
-    margin-top: 2px;*/
-    font-size: 120%;
-    line-height: 138%;
+    width: 100%;
+    text-align: left;
+    font-size: 124%;
+    line-height: 134%;
+}
+
+#about-me > a {
+    text-decoration: none;
+    color: black;
+}
+
+#about-me > a > h4 {
+    position: absolute;
+    margin: 446px 0 0 823px;
+    text-transform: uppercase;
+    font-size: 156%;
+    background-color: #9ddac2;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+#about-me > a > h4:hover {
+    color: #f16c6b;
 }
 
 #main-hub {
@@ -395,3 +399,15 @@ body {
     background-color: rgba(241, 231, 201, 0.6);
     margin-bottom: 30px;
 }
+
+
+/* keyframes animation*/ 
+
+@keyframes roll {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

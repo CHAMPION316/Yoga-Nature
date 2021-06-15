@@ -221,12 +221,11 @@ body {
 
 a#yoga-anchor {
     position: absolute;
-    margin: 150px 0 0 271px;
-    border: solid 2px #9ddac2;
+    margin: 129px 0 0 824px;
 }
 
-#crazy {
-    color: red;
+#yoga-anchor > img {
+    border: solid 2px #9ddac2;
 }
 
 /*#image-opcacity > a > img {

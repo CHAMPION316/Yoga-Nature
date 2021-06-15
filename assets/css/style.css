@@ -35,7 +35,8 @@ body {
     background: url('../images/pexels-lumn-167684.jpg') no-repeat;
     background-position: center;
     background-size: cover;
-    position: relative;
+    /*position: relative;*/
+    background-color: rgba(157 218 194 / 30%);
 }
 
 #map li {
@@ -207,21 +208,37 @@ body {
 }
 
 #yoga-course {
-    height: 450px;
+    height: 700px;
     width: 100%;
     background-image: url('../images/pexels-eberhard-grossgasteiger-707344.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
+    position: relative;
 }
 
-#image-opacity {
-    width: inherit;
-    height: inherit;
-    background-color: rgba(157, 218, 194, 0.7)
+a#yoga-anchor {
+    position: absolute;
+    margin: 150px 0 0 271px;
+    border: solid 2px #9ddac2;
 }
+
+#crazy {
+    color: red;
+}
+
+/*#image-opcacity > a > img {
+    position: absolute;
+    margin: 150px 0 0 271px;
+    border: solid 2px #9ddac2;
+}*/
+
+/*image.resize {
+    max-width:50%;
+    max-height:50%;
+}*/
 
 /*.flex-container {
     display: flex;
@@ -371,6 +388,7 @@ body {
     width: inherit;
     height: inherit;
     background-color: rgba(157 218 194 / 30%);
+    position: relative;
 }
 
 /*#videos-text {

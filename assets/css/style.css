@@ -228,27 +228,45 @@ a#yoga-anchor {
     border: solid 2px #9ddac2;
 }
 
+#yoga-anchor > p {
+    position: absolute;
+    margin-bottom: 30px;
+}
+
 .image-opacity > h2 {
     position: absolute;
     font-family: "Rajdhani";
-    font-size: 200%;
+    font-size: 400%;
     font-weight: 150%;
+    text-shadow: -3px 0 #9ddac2, 0 3px #9ddac2, 3px 0 #9ddac2, 0 -3px #9ddac2;
     color: black;
     /*background-color: #9ddac2;*/   
-    margin-left: 563.168px;
+    margin-left: 133px;
     margin-top: 30px;
     padding: 5px;
 }
 
-.image-opacity > p {
-    width: 30%;
-    height: 60%;
+.image-opacity > h3 {
+    width: 20%;
     float: left;
-    margin-left: 100px;
+    font-family: "Mallanna";
+    font-size: 200%;
+    text-align: center;
+    margin-left: 308px;
     margin-top: 150px;
     color: black;
-    background-color: rgba(157, 218, 194, 0.7)
+    background-color: rgba(157, 218, 194, 0.7);
 }
+
+/*.image-opacity > p {
+    width: 30%;
+    float: left;
+    margin-left: 308px;
+    margin-top: 150px;
+    color: black;
+    background-color: rgba(157, 218, 194, 0.7);
+}*/
+
 
 /*#image-opcacity > a > img {
     position: absolute;

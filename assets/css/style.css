@@ -228,6 +228,28 @@ a#yoga-anchor {
     border: solid 2px #9ddac2;
 }
 
+.image-opacity > h2 {
+    position: absolute;
+    font-family: "Rajdhani";
+    font-size: 200%;
+    font-weight: 150%;
+    color: black;
+    /*background-color: #9ddac2;*/   
+    margin-left: 563.168px;
+    margin-top: 30px;
+    padding: 5px;
+}
+
+.image-opacity > p {
+    width: 30%;
+    height: 60%;
+    float: left;
+    margin-left: 100px;
+    margin-top: 150px;
+    color: black;
+    background-color: rgba(157, 218, 194, 0.7)
+}
+
 /*#image-opcacity > a > img {
     position: absolute;
     margin: 150px 0 0 271px;

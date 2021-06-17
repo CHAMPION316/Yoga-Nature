@@ -17,7 +17,6 @@ body {
     width: 100%;
     height: 40px;
     background-color: rgb(241, 231, 201);
-    /*z-index: 3;*/
     border-bottom: solid 2px white;
 }
 
@@ -28,7 +27,6 @@ body {
     background: url('../images/pexels-lumn-167684.jpg') no-repeat;
     background-position: center;
     background-size: cover;
-    /*position: relative;*/
     background-color: rgba(157 218 194 / 30%);
 }
 
@@ -52,9 +50,7 @@ body {
     font-family: 'Mallanna', sans-serif;
     font-weight: 530;
     color: inherit;
-    /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
-    font-size: 25px;
-    /*margin-right: 15px;*/  
+    font-size: 25px;  
 }
 
 #menu a:hover {
@@ -72,7 +68,6 @@ body {
     text-decoration: none;
     color: inherit;
     font-size: 30px;
-    /*margin-right: 25px;*/
 }
 
 #social-media a:hover {
@@ -86,14 +81,12 @@ body {
     height: 145px;
     padding: 5px 10px;
     background-color: rgba(157, 218, 194, 0.7);
-    /*position: absolute;*/
-    float: left;
-    top: 230px;
-    left: 16px;
+    float: right;
+    margin: 10px 20px 0 0;
 }
 
 #cover-text > h3 {
-    text-align: center;
+    /*text-align: center;*/
     font-family: 'Mallanna', sans-serif;
 }
 
@@ -102,20 +95,19 @@ body {
     line-height: 140%;
 }
 
-#logo {
-    position: absolute;
-    /*top: 30px;*/
-    top: 50px;
-    left: 470.371px;
+div #logo {
     font-family: 'Rajdhani', sans-serif;
     font-size: 229%;
     color: rgb(0, 0, 0);
     border: 3px solid black;
-    /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+    margin: 20px 0 0 50px;
 }
 
 #logo, h1 {
-    padding: 3px;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    padding: 5px;
 }
 
 #me {

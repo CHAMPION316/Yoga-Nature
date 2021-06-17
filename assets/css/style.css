@@ -17,8 +17,7 @@ body {
     width: 100%;
     height: 40px;
     background-color: rgb(241, 231, 201);
-    position: absolute;
-    z-index: 3;
+    /*z-index: 3;*/
     border-bottom: solid 2px white;
 }
 
@@ -33,14 +32,21 @@ body {
     background-color: rgba(157 218 194 / 30%);
 }
 
-#map li {
+.image-opacity {
+    width: inherit;
+    height: inherit;
+    background-color: rgba(157 218 194 / 30%);
+    position: relative;
+}
+
+#menu li {
     float: left;
     list-style-type: none;
     margin-left: 15px;
     margin-top: -4px;
 }
 
-#map a {
+#menu a {
     text-transform: capitalize;
     text-decoration: none;
     font-family: 'Mallanna', sans-serif;
@@ -51,8 +57,8 @@ body {
     /*margin-right: 15px;*/  
 }
 
-#inside-map a:hover {
-    color: #65b981;
+#menu a:hover {
+    color: #9ddac2;
 }
 
 #social-media li {
@@ -80,7 +86,8 @@ body {
     height: 145px;
     padding: 5px 10px;
     background-color: rgba(157, 218, 194, 0.7);
-    position: absolute;
+    /*position: absolute;*/
+    float: left;
     top: 230px;
     left: 16px;
 }
@@ -426,30 +433,35 @@ a#yoga-anchor {
 
 .video-background {
     width: 100%;
-    height: 1000px;
+    height: 1300px;
     background-color: #9ddac2;
+    overflow: auto;
 }
 
-.video-container {
+#text-videocourse h2 {
+    text-align: center;
+    font-family: "Mallanna", sans-serif;
+    font-size: 200%;
+    margin-top: 10px;
+}
+
+.video-color-container {
     width: 90%;
-    height: 600px;
-    margin: auto;
-    background-color:lightcoral;
+    height: 1200px;
+    margin: 20px auto 0;
+    background-color: rgb(241, 231, 201);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-.video-container > h2 {
+.video-letters-spacing {
+    margin-top: 20px;
+}
+
+.video-letters-spacing h4 {
     text-align: center;
 }
-
-.image-opacity {
-    width: inherit;
-    height: inherit;
-    background-color: rgba(157 218 194 / 30%);
-    position: relative;
-}
-
-
-
 
 /* keyframes animation*/ 
 

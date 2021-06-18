@@ -1,272 +1,301 @@
-@import url('https://fonts.googleapis.com/css2?family=Mallanna&family=Rajdhani:wght@300&display=swap');
-@import url('http://weloveiconfonts.com/api/?family=entypo');
+@import url("https://fonts.googleapis.com/css2?family=Mallanna&family=Rajdhani:wght@300&display=swap");
+@import url("http://weloveiconfonts.com/api/?family=entypo");
 
 * {
-    margin: 0;
-    padding: 0;
-    border: none;
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
 body {
-    font-family: sans-serif;
-    font-weight: 350px;
-    color: black;
+  font-family: sans-serif;
+  font-weight: 350px;
+  color: black;
 }
 
 #container {
-    width: 100%;
-    height: 40px;
-    background-color: rgb(241, 231, 201);
-    border-bottom: solid 2px white;
+  width: 100%;
+  height: 40px;
+  background-color: rgb(241, 231, 201);
+  border-bottom: solid 2px white;
 }
 
 #head-image {
-    height: 450px;
-    width: 100%;
-    margin: 0 0;
-    background: url('../images/pexels-lumn-167684.jpg') no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-color: rgba(157 218 194 / 30%);
+  height: 450px;
+  width: 100%;
+  margin: 0 0;
+  background: url("../images/pexels-lumn-167684.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(157 218 194 / 30%);
 }
 
 .image-opacity {
-    width: inherit;
-    height: inherit;
-    background-color: rgba(157 218 194 / 30%);
-    position: relative;
+  width: inherit;
+  height: inherit;
+  background-color: rgba(157 218 194 / 30%);
+  position: relative;
 }
 
 #menu li {
-    float: left;
-    list-style-type: none;
-    margin-left: 15px;
-    margin-top: -4px;
+  float: left;
+  list-style-type: none;
+  margin-left: 15px;
+  margin-top: -4px;
 }
 
 #menu a {
-    text-transform: capitalize;
-    text-decoration: none;
-    font-family: 'Mallanna', sans-serif;
-    font-weight: 530;
-    color: inherit;
-    font-size: 25px;  
+  text-transform: capitalize;
+  text-decoration: none;
+  font-family: "Mallanna", sans-serif;
+  font-weight: 530;
+  color: inherit;
+  font-size: 25px;
 }
 
 #menu a:hover {
-    color: #9ddac2;
+  color: #9ddac2;
 }
 
 #social-media li {
-    float: right;
-    list-style-type: none;
-    margin-right: 20px;
-    margin-top: 5px;
+  float: right;
+  list-style-type: none;
+  margin-right: 20px;
+  margin-top: 5px;
 }
 
 #social-media a {
-    text-decoration: none;
-    color: inherit;
-    font-size: 30px;
+  text-decoration: none;
+  color: inherit;
+  font-size: 30px;
 }
 
 #social-media a:hover {
-    color: #65b981;
+  color: #65b981;
 }
 
 #cover-text {
-    font-size: 100%;
-    font-family: sans-serif;
-    width: 530px;
-    height: 145px;
-    padding: 5px 10px;
-    background-color: rgba(157, 218, 194, 0.7);
-    float: right;
-    margin: 10px 20px 0 0;
+  font-size: 100%;
+  font-family: sans-serif;
+  width: 530px;
+  height: 145px;
+  padding: 5px 10px;
+  background-color: rgba(157, 218, 194, 0.7);
+  float: left;
+  margin: 54px 20px 0 36px;
 }
 
 #cover-text > h3 {
-    /*text-align: center;*/
-    font-family: 'Mallanna', sans-serif;
+  text-align: center;
+  font-family: "Mallanna", sans-serif;
 }
 
 #cover-text > p {
-    text-align: left;
-    line-height: 140%;
+  text-align: left;
+  line-height: 140%;
 }
 
 div #logo {
-    font-family: 'Rajdhani', sans-serif;
-    font-size: 229%;
-    color: rgb(0, 0, 0);
-    border: 3px solid black;
-    margin: 20px 0 0 50px;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 229%;
+  color: rgb(0, 0, 0);
+  border: 3px solid black;
+  margin: 20px 0 0 50px;
 }
 
-#logo, h1 {
-    display: inline-block;
-    text-align: center;
-    font-family: 'Rajdhani', sans-serif;
-    padding: 5px;
+#logo,
+h1 {
+  display: inline-block;
+  text-align: center;
+  font-family: "Rajdhani", sans-serif;
+  padding: 5px;
 }
 
 #me {
-    width: 100%;
-    height: 600px;
-    /*background-image: url('../images/pexels-sameera-madusanka-1572036.jpg');*/
-    position: relative;
-    font-family: inherit;
-    background-color: rgb(241, 231, 201);
-    /*background-color: white;*/
+  width: 100%;
+  height: 600px;
+  /*background-image: url('../images/pexels-sameera-madusanka-1572036.jpg');*/
+  position: relative;
+  font-family: inherit;
+  background-color: rgb(241, 231, 201);
+  /*background-color: white;*/
 }
 
 #instructor {
-    position: absolute;
-    color: black;
-    background-color: #9ddac2;
-    font-family: "Rajdhani";
-    font-size: 220%;
-    padding: 10px;
-    margin: 115px 0 0 169px;
-    transform: rotate(-32deg);
-    z-index: 1;
+  position: absolute;
+  color: black;
+  background-color: #9ddac2;
+  font-family: "Rajdhani";
+  font-size: 220%;
+  padding: 10px;
+  margin: 115px 0 0 169px;
+  transform: rotate(-32deg);
+  z-index: 1;
 }
 
 #border-green {
-    position: absolute;
-    width: 300px;
-    height: 300px;
-    border: 5px solid #9ddac2;
-    margin: 147px 0 0 268px;
-    animation: roll 3s infinite;
-    transform: rotate(30deg);
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border: 5px solid #9ddac2;
+  margin: 147px 0 0 268px;
+  animation: roll 3s infinite;
+  transform: rotate(30deg);
 }
 
 #emelie-image {
-    position: absolute;
+  float: left;
+  /*position: absolute;*/
 }
 
-#emelie-image > img {  
+#emelie-image > h5 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*#emelie-image > img {  
     margin: 150px 0 0 271px;
     border: solid 2px #9ddac2;
+}*/
+
+#emelie-name {
+  float: right;
+  width: 40%;
+  margin: 20px 50px 0 0;
+  /*margin: 120px 0 0 710px;*/
+}
+
+#emelie-name > h3 {
+  display: inline-block;
+  text-transform: capitalize;
+  /*transform: rotate(-30deg);*/
+  font-family: "Rajdhani", sans-serif;
+  /*text-shadow: -1px 0 pink, 0 1px pink, 1px 0 pink, 0 -1px pink;*/
+  font-size: 200%;
+  color: black;
+  background-color: #9ddac2;
+  padding: 10px;
 }
 
 #emelie-name {
-    position: absolute;
-    margin: 120px 0 0 710px;
-}
-
-
-#emelie-name > h3 {
-    text-transform: capitalize;
-    /*transform: rotate(-30deg);*/
-    font-family: 'Rajdhani', sans-serif;
-    /*text-shadow: -1px 0 pink, 0 1px pink, 1px 0 pink, 0 -1px pink;*/
-    font-size: 200%;
-    color: black; 
-    background-color: #9ddac2;
-    padding: 5px;
+  text-align: left;
+  font-size: 124%;
+  line-height: 134%;
 }
 
 #emelie-bio {
-    width: 20%;
-    position: absolute;
-    margin: 200px 0 0 710px;    
+  width: 20%;
+  position: absolute;
+  margin: 200px 0 0 710px;
 }
 
 #emelie-bio > p {
-    width: 100%;
-    text-align: left;
-    font-size: 124%;
-    line-height: 134%;
+  width: 100%;
+  text-align: left;
+  font-size: 124%;
+  line-height: 134%;
 }
 
 #about-me > a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 #about-me > a > h4 {
-    position: absolute;
-    margin: 446px 0 0 823px;
-    text-transform: uppercase;
-    font-size: 156%;
-    background-color: #9ddac2;
-    padding: 8px;
-    border-radius: 50%;
+  position: absolute;
+  margin: 446px 0 0 823px;
+  text-transform: uppercase;
+  font-size: 156%;
+  background-color: #9ddac2;
+  padding: 8px;
+  border-radius: 50%;
 }
 
 #about-me > a > h4:hover {
-    color: #f16c6b;
+  color: #f16c6b;
 }
 
 #yoga-course {
-    height: 700px;
-    width: 100%;
-    background-image: url('../images/pexels-eberhard-grossgasteiger-707344.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    /*box-sizing: border-box;*/
-    position: relative;
+  height: 700px;
+  width: 100%;
+  background-image: url("../images/pexels-eberhard-grossgasteiger-707344.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /*box-sizing: border-box;*/
+  position: relative;
 }
 
 a#yoga-anchor {
-    position: absolute;
-    margin: 129px 0 0 824px;
+  position: absolute;
+  margin: 129px 0 0 824px;
 }
 
 #yoga-anchor > img {
-    border: solid 2px #9ddac2;
+  border: solid 2px #9ddac2;
 }
 
 #yoga-anchor > p {
-    position: absolute;
-    margin-bottom: 30px;
+  position: absolute;
+  margin-bottom: 30px;
 }
 
 .image-opacity > h2 {
-    position: absolute;
-    font-family: "Rajdhani";
-    font-size: 400%;
-    font-weight: 150%;
-    text-shadow: -3px 0 #9ddac2, 0 3px #9ddac2, 3px 0 #9ddac2, 0 -3px #9ddac2;
-    color: black;
-    /*background-color: #9ddac2;*/   
-    margin-left: 133px;
-    margin-top: 30px;
-    padding: 5px;
+  position: absolute;
+  font-family: "Rajdhani";
+  font-size: 400%;
+  font-weight: 150%;
+  text-shadow: -3px 0 #9ddac2, 0 3px #9ddac2, 3px 0 #9ddac2, 0 -3px #9ddac2;
+  color: black;
+  /*background-color: #9ddac2;*/
+  margin-left: 133px;
+  margin-top: 30px;
+  padding: 5px;
 }
 
 .image-opacity > h3 {
-    width: 20%;
-    float: left;
-    font-family: "Mallanna";
-    font-size: 200%;
-    text-align: center;
-    margin-left: 308px;
-    margin-top: 150px;
-    padding-bottom: 60px;
-    color: black;
-    background-color: rgba(157, 218, 194, 0.7);
+  width: 20%;
+  float: left;
+  font-family: "Mallanna";
+  font-size: 200%;
+  text-align: center;
+  margin-left: 308px;
+  margin-top: 150px;
+  padding-bottom: 60px;
+  color: black;
+  background-color: rgba(157, 218, 194, 0.7);
 }
 
 /* HEART ICON */
- .heart {
-    fill: red;
-    position: absolute;
-    top: 327px;
-    left: 418px;
-    width: 50px;
-    animation: pulse 1s ease infinite;
+.heart {
+  fill: red;
+  position: absolute;
+  top: 327px;
+  left: 418px;
+  width: 50px;
+  animation: pulse 1s ease infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
   }
-  
-  @keyframes pulse {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.3); }
-    100% { transform: scale(1); }
+  50% {
+    transform: scale(1.3);
   }
+  100% {
+    transform: scale(1);
+  }
+}
 
 /*.image-opacity > p {
     width: 30%;
@@ -276,7 +305,6 @@ a#yoga-anchor {
     color: black;
     background-color: rgba(157, 218, 194, 0.7);
 }*/
-
 
 /*#image-opcacity > a > img {
     position: absolute;
@@ -357,111 +385,109 @@ a#yoga-anchor {
     font-size: 140%;
 }*/
 
-
 /* sign-up page */
 #sign-up {
-    position: relative;
-    margin-top: 10px;
+  position: relative;
+  margin-top: 10px;
 }
 
 .form-section {
-    width: 100%;
-    height: 762px;
-    background-image: url('../images/pexels-rudolf-jakkel-418831.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+  width: 100%;
+  height: 762px;
+  background-image: url("../images/pexels-rudolf-jakkel-418831.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .signup-form {
-    margin: 197.25px 10% 0 0;
-    color: rgb(0, 0, 0);
-    background-color: rgba(241, 231, 201, 0.6);
-    max-width: 400px;
-    position: absolute;
-    left: 475.5px;
-    /*this might be wrong below */
-    padding: 30px;
+  margin: 197.25px 10% 0 0;
+  color: rgb(0, 0, 0);
+  background-color: rgba(241, 231, 201, 0.6);
+  max-width: 400px;
+  position: absolute;
+  left: 475.5px;
+  /*this might be wrong below */
+  padding: 30px;
 }
 
 .signup-form > h2 {
-    color: #000000;
-    margin-bottom: 20px;
+  color: #000000;
+  margin-bottom: 20px;
 }
 
-
 .text-input {
-    background-color: #a6dea3;
-    /*background: #9df7d1;*/
-    color: #000000;
-    width: 100%;
-    height: 25px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
+  background-color: #a6dea3;
+  /*background: #9df7d1;*/
+  color: #000000;
+  width: 100%;
+  height: 25px;
+  margin: 5px 0 20px 0;
+  border: 1px solid #fafafa;
+  border-radius: 2px;
 }
 
 .text-input:hover {
-    border-color: #000000;
+  border-color: #000000;
 }
 
 .join-button {
-    margin-top: 20px;
-    border-radius: 2px;
-    padding: 15px 32px 15px 32px;
-    text-align: center;
-    font-size: 100%;
-    background-color: #a6dea3;
-    /*background-color: #9df7d1;*/
-    color: #000000;
-    display: block;
+  margin-top: 20px;
+  border-radius: 2px;
+  padding: 15px 32px 15px 32px;
+  text-align: center;
+  font-size: 100%;
+  background-color: #a6dea3;
+  /*background-color: #9df7d1;*/
+  color: #000000;
+  display: block;
 }
 
 .join-button:hover {
-    color: #f16c6b;
+  color: #f16c6b;
 }
 
 /* videos.html */
 
 .video-background {
-    width: 100%;
-    height: 1300px;
-    background-color: #9ddac2;
-    overflow: auto;
+  width: 100%;
+  height: 1300px;
+  background-color: #9ddac2;
+  overflow: auto;
 }
 
 #text-videocourse h2 {
-    text-align: center;
-    font-family: "Mallanna", sans-serif;
-    font-size: 200%;
-    margin-top: 10px;
+  text-align: center;
+  font-family: "Mallanna", sans-serif;
+  font-size: 200%;
+  margin-top: 10px;
 }
 
 .video-color-container {
-    width: 90%;
-    height: 1200px;
-    margin: 20px auto 0;
-    background-color: rgb(241, 231, 201);
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+  width: 90%;
+  height: 1200px;
+  margin: 20px auto 0;
+  background-color: rgb(241, 231, 201);
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .video-letters-spacing {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .video-letters-spacing h4 {
-    text-align: center;
+  text-align: center;
 }
 
-/* keyframes animation*/ 
+/* keyframes animation*/
 
 @keyframes roll {
-    0% {
-      transform: rotate(0);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
+  0% {
+    transform: rotate(0);
   }
+  100% {
+    transform: rotate(360deg);
+  }
+}

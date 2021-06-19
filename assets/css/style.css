@@ -144,21 +144,23 @@ h1 {
 }
 
 #emelie-image {
+  display: relative;
   float: left;
+  margin: 70px 0 0 134px;
   /*position: absolute;*/
 }
 
-#emelie-image > h5 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
+#emelie-image > h4 {
+  font-family: "Rajdhani";
+  font-size: 230%;
+  text-align: center;
+  letter-spacing: 3px;
+  margin-top: 10px;
 }
 
-.image-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+#emelie-image span {
+  background-color: #9ddac2;
+  padding: 3px 10px;
 }
 
 /*#emelie-image > img {  
@@ -170,6 +172,9 @@ h1 {
   float: right;
   width: 40%;
   margin: 20px 50px 0 0;
+  text-align: left;
+  font-size: 124%;
+  line-height: 134%;
   /*margin: 120px 0 0 710px;*/
 }
 
@@ -183,12 +188,6 @@ h1 {
   color: black;
   background-color: #9ddac2;
   padding: 10px;
-}
-
-#emelie-name {
-  text-align: left;
-  font-size: 124%;
-  line-height: 134%;
 }
 
 #emelie-bio {

@@ -16,7 +16,8 @@ body {
 #container {
   width: 100%;
   height: 40px;
-  background-color: rgb(241, 231, 201);
+  background-color: rgb(247, 234, 215);
+  /*background-color: rgb(241, 231, 201);*/
   border-bottom: solid 2px white;
 }
 
@@ -24,7 +25,8 @@ body {
   height: 450px;
   width: 100%;
   margin: 0 0;
-  background: url("../images/pexels-lumn-167684.jpg") no-repeat;
+  background: url("../images/pexels-asad-photo-maldives-1430677.jpg");
+  /*background: url("../images/pexels-lumn-167684.jpg") no-repeat;*/
   background-position: center;
   background-size: cover;
   background-color: rgba(157 218 194 / 30%);
@@ -33,7 +35,7 @@ body {
 .image-opacity {
   width: inherit;
   height: inherit;
-  background-color: rgba(157 218 194 / 30%);
+  /*background-color: rgba(157 218 194 / 30%);*/
   position: relative;
 }
 
@@ -54,7 +56,8 @@ body {
 }
 
 #menu a:hover {
-  color: #9ddac2;
+  /*color: #9ddac2;*/
+  color: rgb(0, 134, 205);
 }
 
 #social-media li {
@@ -71,7 +74,8 @@ body {
 }
 
 #social-media a:hover {
-  color: #9ddac2;
+  /*color: #9ddac2;*/
+  color: rgb(0, 134, 205);
 }
 
 #cover-text {
@@ -80,7 +84,9 @@ body {
   width: 530px;
   height: 145px;
   padding: 5px 10px;
-  background-color: rgba(157, 218, 194, 0.7);
+  background-color: rgba(174, 198, 222, 0.9);
+  border: 2px solid black;
+  /*background-color: rgba(157, 218, 194, 0.7);*/
   float: left;
   margin: 54px 20px 0 36px;
 }
@@ -117,7 +123,8 @@ h1 {
   /*background-image: url('../images/pexels-sameera-madusanka-1572036.jpg');*/
   position: relative;
   font-family: inherit;
-  background-color: rgb(241, 231, 201);
+  background-color: rgb(247, 234, 215);
+  /*background-color: rgb(241, 231, 201);*/
   /*background-color: white;*/
 }
 
@@ -159,7 +166,8 @@ h1 {
 }
 
 #emelie-image span {
-  background-color: #9ddac2;
+  background-color: rgb(163, 227, 203);
+  /*background-color: #9ddac2;*/
   padding: 3px 16px;
 }
 
@@ -187,19 +195,18 @@ h1 {
   font-size: 200%;
   margin-bottom: 10px;
   color: black;
-  background-color: #9ddac2;
+  background-color: rgb(163, 227, 203);
   padding: 10px;
 }
 
 .emelie-name > a {
   text-decoration: none;
-  animation: wheelHueColor 20s infinite;
+  animation: wheelHueColor 3s infinite;
   transform: translateY(-50%);
 }
 
 .emelie-name > a h4:hover {
   color: black;
-  border: 2px solid black;
 }
 
 .emelie-name > a > h4 {
@@ -208,7 +215,8 @@ h1 {
   font-size: 156%;
   margin-top: 20px;
   padding: 2px 5px;
-  background-color: #9ddac2;
+  background-color: rgb(163, 227, 203);
+  border: 2px solid black;
   padding: 5px;
 }
 
@@ -216,16 +224,9 @@ h1 {
 
 @keyframes wheelHueColor {
   from, to { color: rgb(92, 176, 233); }
-  5%      { color: rgb(228, 99, 196); }
-  5%      { color: rgb(209, 64, 173); }
+  10%      { color: rgb(228, 99, 196); }
+  20%      { color: rgb(209, 64, 173); }
 }
-
-/*#emelie-name span {
-}*/
-
-/*.emelie-name > a > h4:hover {
-  color: #f16c6b;
-}*/
 
 #emelie-bio {
   width: 20%;
@@ -259,19 +260,67 @@ h1 {
   color: #f16c6b;
 }
 
-#yoga-course {
-  height: 700px;
+.yoga-course {
+  height: 600px;
   width: 100%;
-  background-image: url("../images/pexels-eberhard-grossgasteiger-707344.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  /*box-sizing: border-box;*/
-  position: relative;
+  background-color: rgb(174, 198, 222);
 }
 
-a#yoga-anchor {
+.emelie-image2 {
+  float: right;
+  margin: 30px 255.5px 0 0;
+}
+
+.bluetext-background {
+  width: 400px;
+  height: 500px;
+  float: left;
+  padding: 0 10px;
+  background-color: rgb(247, 234, 215);  
+}
+
+.emelie-image2 h3 {
+  margin-top: 10px;
+  font-family: "Mallanna", sans-serif;
+  font-size: 200%;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.emelie-image2 p {
+  font-size: 150%;
+  text-align: center;
+  line-height: 160%;
+}
+
+.emelie-image2 span {
+  font-weight: bolder;
+}
+
+.bluetext-background a {
+  text-decoration: none;
+  text-align: center;
+}
+
+.bluetext-background a > h4 {
+  margin-top: 10px;
+  font-family: "Mallanna", sans-serif;
+}
+
+.bluetext-background > a > h4 > span {
+  font-size: 150%;
+  padding: 0 5px;
+  background-color: rgb(163, 227, 203);
+  border: 2px solid black;
+  animation: wheelHueColor 3s infinite;
+  transform: translateY(-50%);
+}
+
+.bluetext-background > a > h4 > span:hover {
+  color: black !important;
+}
+
+a #yoga-anchor {
   position: absolute;
   margin: 129px 0 0 824px;
 }

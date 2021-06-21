@@ -1,4 +1,4 @@
-# Portfolio-Project-1
+# Yoga-Nature
 Build a Meditation/Mindfulness/Yoga Website
 Used "Photo by Life Of Pix from Pexels" from the website {Photo by Life Of Pix from Pexels}
 (Photo by Life Of Pix from Pexels)

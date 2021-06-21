@@ -71,7 +71,7 @@ body {
 }
 
 #social-media a:hover {
-  color: #65b981;
+  color: #9ddac2;
 }
 
 #cover-text {
@@ -160,7 +160,7 @@ h1 {
 
 #emelie-image span {
   background-color: #9ddac2;
-  padding: 3px 10px;
+  padding: 3px 16px;
 }
 
 /*#emelie-image > img {  
@@ -168,27 +168,64 @@ h1 {
     border: solid 2px #9ddac2;
 }*/
 
-#emelie-name {
+.emelie-name {
   float: right;
   width: 40%;
-  margin: 20px 50px 0 0;
+  margin: 82px 154px 0 0;
   text-align: left;
   font-size: 124%;
   line-height: 134%;
   /*margin: 120px 0 0 710px;*/
 }
 
-#emelie-name > h3 {
+.emelie-name > h3 {
   display: inline-block;
   text-transform: capitalize;
   /*transform: rotate(-30deg);*/
   font-family: "Rajdhani", sans-serif;
   /*text-shadow: -1px 0 pink, 0 1px pink, 1px 0 pink, 0 -1px pink;*/
   font-size: 200%;
+  margin-bottom: 10px;
   color: black;
   background-color: #9ddac2;
   padding: 10px;
 }
+
+.emelie-name > a {
+  text-decoration: none;
+  animation: wheelHueColor 20s infinite;
+  transform: translateY(-50%);
+}
+
+.emelie-name > a h4:hover {
+  color: black;
+  border: 2px solid black;
+}
+
+.emelie-name > a > h4 {
+  display: inline-block;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 156%;
+  margin-top: 20px;
+  padding: 2px 5px;
+  background-color: #9ddac2;
+  padding: 5px;
+}
+
+/* create color changes for link text #emelie-name > a */
+
+@keyframes wheelHueColor {
+  from, to { color: rgb(92, 176, 233); }
+  5%      { color: rgb(228, 99, 196); }
+  5%      { color: rgb(209, 64, 173); }
+}
+
+/*#emelie-name span {
+}*/
+
+/*.emelie-name > a > h4:hover {
+  color: #f16c6b;
+}*/
 
 #emelie-bio {
   width: 20%;

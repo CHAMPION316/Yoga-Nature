@@ -1,13 +1,4 @@
 # Yoga-Nature
-<<<<<<< HEAD
-Build a Meditation/Mindfulness/Yoga Website
-Used "Photo by Life Of Pix from Pexels" from the website {Photo by Life Of Pix from Pexels}
-(Photo by Life Of Pix from Pexels)
-https://www.pexels.com/photo/person-standing-on-rock-formation-7640/
-
-## Logo border code
-I used the link [Border-Link](https://stackoverflow.com/questions/2570972/css-font-border) to add the code for the border around the logo on the h1 div. 
-=======
 Is a website intended for audiences that are interested in learning body/mind self-improvement techniques through yoga. The title needed to coincide with how in tune yoga makes people feel with nature. I then needed to reflect that right away by having my ([Hero Image](https://www.pexels.com/photo/photo-of-blue-sea-1430677/)) present such an environment. The website is intended for public use so there is no need to **"pay"** a subscription in order to sign up for the courses. Considering the times we are living in where people are working remotely from home and keeping a distance provided a great oppotunity to teach yoga from the comfort of your mobile or laptop device. 
 
 
@@ -56,5 +47,4 @@ I have used the website ([Pexels](https://www.pexels.com/)) for all the images o
 
 
 
->>>>>>> e4e8f0a (Update README.md file)
 

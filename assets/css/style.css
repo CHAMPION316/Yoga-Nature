@@ -261,7 +261,7 @@ h1 {
 }
 
 .yoga-course {
-  height: 600px;
+  height: 560px;
   width: 100%;
   background-color: rgb(174, 198, 222);
 }
@@ -304,11 +304,11 @@ h1 {
 
 .bluetext-background a > h4 {
   margin-top: 10px;
-  font-family: "Mallanna", sans-serif;
+  font-family: "Rajdhani", sans-serif;
 }
 
 .bluetext-background > a > h4 > span {
-  font-size: 150%;
+  font-size: 156%;
   padding: 0 5px;
   background-color: rgb(163, 227, 203);
   border: 2px solid black;

@@ -74,7 +74,6 @@ body {
 }
 
 #social-media a:hover {
-  /*color: #9ddac2;*/
   color: rgb(0, 134, 205);
 }
 
@@ -85,7 +84,7 @@ body {
   height: 145px;
   padding: 5px 10px;
   background-color: rgba(174, 198, 222, 0.9);
-  border: 2px solid black;
+  border: 1px solid black;
   /*background-color: rgba(157, 218, 194, 0.7);*/
   float: left;
   margin: 54px 20px 0 36px;
@@ -205,7 +204,7 @@ h1 {
   transform: translateY(-50%);
 }
 
-.emelie-name > a h4:hover {
+.emelie-name > a > h4:hover {
   color: black;
 }
 
@@ -216,7 +215,7 @@ h1 {
   margin-top: 20px;
   padding: 2px 5px;
   background-color: rgb(163, 227, 203);
-  border: 2px solid black;
+  border: 1px solid black;
   padding: 5px;
 }
 
@@ -311,7 +310,7 @@ h1 {
   font-size: 156%;
   padding: 0 5px;
   background-color: rgb(163, 227, 203);
-  border: 2px solid black;
+  border: 1px solid black;
   animation: wheelHueColor 3s infinite;
   transform: translateY(-50%);
 }
@@ -320,7 +319,47 @@ h1 {
   color: black !important;
 }
 
-a #yoga-anchor {
+/* footer */
+
+footer {
+  width: 100%;
+  height: 300px;
+  background-color: rgb(163, 227, 203);
+  position: relative;
+  overflow: hidden;
+}
+
+.signup-form {
+  /*float: left;*/
+  /*margin: 197.25px 10% 0 0;*/
+  color: rgb(0, 0, 0);
+  background-color: rgb(247, 234, 215);
+  max-width: 400px;
+  /*position: absolute;*/
+  /*left: 475.5px;*/
+  /*this might be wrong below*/
+  padding: 20px 20px 5px;
+  margin: 20px auto 0;
+}
+
+.input-container {
+  display: flex;
+  width: 100%;
+}
+
+.fa-envelope {
+  margin-right: 5px;
+  font-size: 110%;
+}
+
+.center-footer {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Double check code below for deletion */
+
+/*a #yoga-anchor {
   position: absolute;
   margin: 129px 0 0 824px;
 }
@@ -341,7 +380,6 @@ a #yoga-anchor {
   font-weight: 150%;
   text-shadow: -3px 0 #9ddac2, 0 3px #9ddac2, 3px 0 #9ddac2, 0 -3px #9ddac2;
   color: black;
-  /*background-color: #9ddac2;*/
   margin-left: 133px;
   margin-top: 30px;
   padding: 5px;
@@ -358,10 +396,11 @@ a #yoga-anchor {
   padding-bottom: 60px;
   color: black;
   background-color: rgba(157, 218, 194, 0.7);
-}
+}*/
 
+/*Double check code below for deletion*/
 /* HEART ICON */
-.heart {
+/*.heart {
   fill: red;
   position: absolute;
   top: 327px;
@@ -380,7 +419,7 @@ a #yoga-anchor {
   100% {
     transform: scale(1);
   }
-}
+} */
 
 /*.image-opacity > p {
     width: 30%;
@@ -470,31 +509,33 @@ a #yoga-anchor {
     font-size: 140%;
 }*/
 
+
+
 /* sign-up page */
-#sign-up {
+/*#sign-up {
   position: relative;
   margin-top: 10px;
-}
+}*/
 
-.form-section {
+/*.form-section {
   width: 100%;
   height: 762px;
   background-image: url("../images/pexels-rudolf-jakkel-418831.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
+}*/
 
-.signup-form {
+/*.signup-form {
   margin: 197.25px 10% 0 0;
   color: rgb(0, 0, 0);
   background-color: rgba(241, 231, 201, 0.6);
   max-width: 400px;
   position: absolute;
-  left: 475.5px;
+  left: 475.5px;*/
   /*this might be wrong below */
-  padding: 30px;
-}
+ /*padding: 30px;
+}*/
 
 .signup-form > h2 {
   color: #000000;
@@ -502,34 +543,36 @@ a #yoga-anchor {
 }
 
 .text-input {
-  background-color: #a6dea3;
-  /*background: #9df7d1;*/
+  background-color: rgb(163, 227, 203);
   color: #000000;
   width: 100%;
   height: 25px;
   margin: 5px 0 20px 0;
   border: 1px solid #fafafa;
   border-radius: 2px;
+  text-align: center;
+  font-size: 110%;
 }
 
 .text-input:hover {
-  border-color: #000000;
+  border-color: black;
 }
 
 .join-button {
-  margin-top: 20px;
+  margin: 20px auto;
   border-radius: 2px;
   padding: 15px 32px 15px 32px;
   text-align: center;
   font-size: 100%;
-  background-color: #a6dea3;
-  /*background-color: #9df7d1;*/
+  background-color: rgb(163, 227, 203);
+  border: 1px solid rgb(247, 234, 215);
   color: #000000;
   display: block;
 }
 
 .join-button:hover {
   color: #f16c6b;
+  border: 1px solid black;
 }
 
 /* videos.html */
@@ -537,7 +580,7 @@ a #yoga-anchor {
 .video-background {
   width: 100%;
   height: 1300px;
-  background-color: #9ddac2;
+  background-color: rgb(163, 227, 203);
   overflow: auto;
 }
 
@@ -552,7 +595,7 @@ a #yoga-anchor {
   width: 90%;
   height: 1200px;
   margin: 20px auto 0;
-  background-color: rgb(241, 231, 201);
+  background-color: rgb(247, 234, 215);
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;

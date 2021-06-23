@@ -59,6 +59,12 @@ Is a website intended for audiences that are interested in learning body/mind se
 
 ![](docs/emelie-videolink-section.jpg)
 
+* ## Footer
+    * My current footer page only has a Newsletter sign-up form. The reason for this is because I have my social-media tabs at the top of the page so there was no reason to include them again at the bottom
+    *  Since the location functions remotely there was no need to include an address
+
+![](docs/footer-page.jpg)
+
 
 
 

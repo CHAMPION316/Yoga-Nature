@@ -469,7 +469,7 @@ footer {
 
 /* Media queries */
 
-/* For larger to medium screens size from 1200px wide and down */
+/* For larger to medium screens size from 768px wide and down */
 /* ipad */
 @media screen and (max-width: 768px) {
   #logo {
@@ -491,7 +491,7 @@ footer {
   }
   
   .biography-background {
-      height: 1250px;
+    height: 1250px;
   }
 
   .biography-imagedate {
@@ -520,12 +520,12 @@ footer {
   }
 
   .bluetext-background {
-    margin: 50px 0 0 20px;
+    margin: 50px 0 0 24px;
     width: 350px;
   }
 
   .emelie-image2 {
-    margin: 50px 20px 0 0;
+    margin: 50px 24px 0 0;
   }
   
   .emelie-image2 > img {
@@ -534,5 +534,54 @@ footer {
 
   .video-color-container {
     height: 2400px;
+    width: 60%;
   }
 }
+
+/* max screen sizes 1024px iPad pro */
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+  .bluetext-background {
+    margin: 50px 0 0 102px;
+  }
+
+  .emelie-image2 {
+    margin: 50px 102px 0 0;
+  }
+  
+  .biography-background {
+    height: 1800px;
+  }
+  
+  .biography-imagedate {
+    float: none;
+  }
+
+  .biography-imagedate > img {
+    width: 700px;
+    height: 900px;
+  }
+  
+  .biography-info {
+    float: none;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .biography-info > h2 {
+    margin: 0 auto;
+    font-size: 3rem;
+  }
+
+  .biography-info > p {
+    margin: 0 auto;
+    width: none;
+    line-height: 3rem;
+    padding: 0 30px;
+    font-size: 30px;
+  }
+
+  .biography-info > h4 {
+    margin: 20px auto;
+    font-size: 130%;
+  }
+} 

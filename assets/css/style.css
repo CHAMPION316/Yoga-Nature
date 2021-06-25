@@ -110,7 +110,6 @@ div #logo {
 #logo, h1 {
   display: inline-block;
   text-align: center;
-  /*font-family: "Rajdhani", sans-serif;*/
   padding: 5px;
 }
 
@@ -245,14 +244,15 @@ div #logo {
 }
 
 .yoga-course {
-  height: 560px;
+  height: 600px;
   width: 100%;
   background-color: rgb(174, 198, 222);
+  position: relative;
 }
 
 .emelie-image2 {
   float: right;
-  margin: 30px 255.5px 0 0;
+  margin: 50px 266px 0 0;
 }
 
 .bluetext-background {
@@ -260,10 +260,11 @@ div #logo {
   height: 500px;
   float: left;
   padding: 0 10px;
-  background-color: rgb(247, 234, 215);  
+  background-color: rgb(247, 234, 215);
+  margin: 50px 0 0 265px;
 }
 
-.emelie-image2 h3 {
+.bluetext-background > h3 {
   margin-top: 10px;
   font-family: "Mallanna", sans-serif;
   font-size: 200%;
@@ -271,7 +272,7 @@ div #logo {
   text-transform: capitalize;
 }
 
-.emelie-image2 p {
+.bluetext-background > p {
   font-size: 150%;
   text-align: center;
   line-height: 160%;
@@ -314,14 +315,6 @@ footer {
   overflow: hidden;
 }
 
-.signup-form {
-  color: rgb(0, 0, 0);
-  background-color: rgb(247, 234, 215);
-  max-width: 400px;
-  padding: 20px 20px 5px;
-  margin: 20px auto 0;
-}
-
 .input-container {
   display: flex;
   width: 100%;
@@ -337,33 +330,13 @@ footer {
   margin-top: 10px;
 }
 
-/* Double check code below for deletion */
-
-/* sign-up page */
-/*#sign-up {
-  position: relative;
-  margin-top: 10px;
-}*/
-
-/*.form-section {
-  width: 100%;
-  height: 762px;
-  background-image: url("../images/pexels-rudolf-jakkel-418831.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}*/
-
-/*.signup-form {
-  margin: 197.25px 10% 0 0;
+.signup-form {
   color: rgb(0, 0, 0);
-  background-color: rgba(241, 231, 201, 0.6);
+  background-color: rgb(247, 234, 215);
   max-width: 400px;
-  position: absolute;
-  left: 475.5px;*/
-  /*this might be wrong below */
- /*padding: 30px;
-}*/
+  padding: 20px 20px 5px;
+  margin: 20px auto 0;
+}
 
 .signup-form > h2 {
   color: #000000;
@@ -408,7 +381,7 @@ footer {
 .video-background {
   width: 100%;
   height: 1300px;
-  background-color: rgb(118, 167, 149);
+  background-color: rgb(163, 227, 203);
   overflow: auto;
 }
 
@@ -472,7 +445,6 @@ footer {
 }
 
 .biography-info {
-  /*margin-left: 550px;*/
   text-align: left;
   margin-top: 40px;
   margin-right: 40px;
@@ -498,6 +470,7 @@ footer {
 /* Media queries */
 
 /* For larger to medium screens size from 1200px wide and down */
+/* ipad */
 @media screen and (max-width: 768px) {
   #logo {
     margin: 20px 0 0 174px;
@@ -512,10 +485,6 @@ footer {
     /*float: left;*/
     margin: 80px 0 0 40px;
   }
-
-  /*#emelie-image {
-    margin-top: none;
-  }*/
 
   .emelie-name {
     margin: 80px 40px 0 0;
@@ -548,5 +517,22 @@ footer {
 
   .biography-info > h4 {
     margin: 20px auto 0;
+  }
+
+  .bluetext-background {
+    margin: 50px 0 0 20px;
+    width: 350px;
+  }
+
+  .emelie-image2 {
+    margin: 50px 20px 0 0;
+  }
+  
+  .emelie-image2 > img {
+    width: 350px;
+  }
+
+  .video-color-container {
+    height: 2400px;
   }
 }

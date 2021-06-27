@@ -133,16 +133,6 @@ div #logo {
   z-index: 1;
 }
 
-/*#border-green {
-  position: absolute;
-  width: 300px;
-  height: 300px;
-  border: 5px solid #9ddac2;
-  margin: 147px 0 0 268px;
-  animation: roll 3s infinite;
-  transform: rotate(30deg);
-}*/
-
 #emelie-image {
   display: relative;
   float: left;
@@ -203,7 +193,7 @@ div #logo {
   padding: 5px;
 }
 
-/* create color changes for link text #emelie-name > a */
+/* ------------------create color changes for link text #emelie-name > a */
 
 @keyframes wheelHueColor {
   from, to { color: rgb(92, 176, 233); }
@@ -376,7 +366,7 @@ footer {
   border: 1px solid black;
 }
 
-/* videos.html */
+/* ----------------------------------------------------------videos.html */
 
 .video-background {
   width: 100%;
@@ -395,22 +385,23 @@ footer {
 .video-color-container {
   width: 90%;
   height: 1200px;
-  margin: 20px auto 0;
+  margin: 10px auto 0;
+  padding-top: 20px;
   background-color: rgb(247, 234, 215);
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
 
-.video-letters-spacing {
-  margin-top: 20px;
-}
+/*.video-letters-spacing {
+  
+}*/
 
 .video-letters-spacing h4 {
   text-align: center;
 }
 
-/* keyframes animation*/
+/*-----------------------------------------------------keyframes animation*/
 
 @keyframes roll {
   0% {
@@ -421,7 +412,7 @@ footer {
   }
 }
 
-/* Biography page */
+/* -------------------------------------------------------Biography page */
 
 .biography-background {
   width: 100%;
@@ -467,7 +458,7 @@ footer {
   margin-top: 40px;
 }
 
-/* Media queries */
+/* -------------------------------------------------Media queries */
 
 /* For larger to medium screens size from 768px wide and down */
 /* ipad */
@@ -541,19 +532,30 @@ footer {
     width: 57%;
   }
 
+  footer {
+    height: 580px;
+  }
+
   .black-top-border {
     border-top: 2px solid black;
+    height: 585px;
   }
+  
 }
 
-/* max screen sizes 1024px iPad pro */
+/* ................................................................max screen sizes 1024px iPad pro */
 @media screen and (min-width: 1024px) and (max-width: 1366px) {
   .bluetext-background {
     margin: 50px 0 0 102px;
   }
 
+  footer {
+    height: 920px;
+  }
+
   .black-top-border {
     border-top: 2px solid black;
+    height: 920px;
   }
 
   .emelie-image2 {
@@ -598,13 +600,9 @@ footer {
   }
 } 
 
-/* For smaller screens size from 320px wide and down */
+/* ---------------------------------------------For smaller screens size 320px */
 @media only screen and (max-device-width: 320px) {
-  /*html{
-    width: 100vw;
-    overflow-x: hidden;
-  }*/
-  
+/* container sizing */
   #menu li {
     margin: 7px 0 0 10px;
   }
@@ -629,13 +627,6 @@ footer {
     font-size: 110%;
     margin: 20px 0 0 54px;
   }
-
-  
-
-  /*#head-image > img {
-    width: 100%;
-    height: 100px;
-  }*/
 
   #cover-text {
     width: 85%;
@@ -719,16 +710,44 @@ footer {
 
   footer {
     height: 320px;
+  }
 
+  .black-top-border {
+    height: 320px;
   }
 
   .signup-form {
-    max-width: 250px;
+    max-width: 205px;
   }
 
+  /* ---------------------------------------------------------videos.html 320px media query */
+  .video-letters-spacing > iframe {
+    width: 200px;
+    height: 100px;
+  }
 
+  .video-color-container {
+    max-height: 1200px;
+    width: 76%;
+  }
 
-  /*.form-all {
-    width : 400px!important;
-  }*/
+  /* --------------------------------------------------------biography.html 320px media query */
+  .biography-background {
+    height: 1130px;
+  }
+  
+  .biography-imagedate > img {
+    width: 250px;
+    height: 320px
+  }
+
+  .biography-info > h2 {
+    font-size: 1.8rem;
+  }
+
+  .biography-info > p {
+    font-size: 15px;
+    line-height: 1.7rem;
+  }
+
 }

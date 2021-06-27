@@ -543,7 +543,7 @@ footer {
   
 }
 
-/* ................................................................max screen sizes 1024px iPad pro */
+/* ................................................................max screen sizes 1024px iPad pro 12.9 */
 @media screen and (min-width: 1024px) and (max-width: 1366px) {
   .bluetext-background {
     margin: 50px 0 0 102px;

@@ -1,5 +1,45 @@
-# Yoga-Nature
-Is a website intended for audiences that are interested in learning body/mind self-improvement techniques through yoga. This will be done by providing an instructor who is certified in yoga and will demonstrate the self-improvement techniques through recorded videos.  <!--The title needed to coincide with how in tune yoga makes people feel with nature. I then needed to reflect that right away by having my ([Hero Image](https://www.pexels.com/photo/photo-of-blue-sea-1430677/)) present such an environment. The website is intended for public use so there is no need to **"pay"** a subscription in order to sign up for the courses. Considering the times we are living in where people are working remotely from home and keeping a distance provided a great oppotunity to teach yoga from the comfort of your mobile or laptop device.-->
+<h1 align="center">Yoga Nature</h1>
+
+[View the page here.](https://champion316.github.io/Yoga-Nature/biography.html)
+
+Is a website intended for audiences that are interested in learning body/mind self-improvement techniques through yoga. This will be done by providing an instructor who is certified in yoga and will demonstrate the self-improvement techniques through recorded videos.  
+
+<h2>User Experience (UX)</h2>
+
+* ### User Stories
+    * #### First Time Visitor Goals
+        a. As a first time visitor I want to know what it is that makes this yoga page different than any other.
+        
+        b. Who is teaching the material and how much experience do they have.
+        
+        c. How much does it cost?
+
+    * ### Returning Visitor Goals
+        a. Can I contact the instructor if I have any questions?
+        
+        b. Is the material being updated at least on weekly basis? 
+    
+    * ### Frequent User Goals 
+        a. Material that is really benefiting their overall health.
+
+        b. Newsletter material is constantly providing more resources about yoga.
+
+* ### Design
+    * #### Color Scheme
+        * I then had a color palette created on (**[coolors](https://coolors.co/)**). This was done by uploading the image and having it choose a palette which I can then adjust to my liking. This is the result I settled with in the end.
+
+        * The colors from left to right in hexadecimal are as follows. 
+            1. #aec6de
+            2. #a3e3cb
+            3. #f7ead7
+
+<!--[](docs/collage.png)-->
+<img src="docs/collage.png" width="500" height="300"/>
+
+* ### Typography
+
+
+<!--The title needed to coincide with how in tune yoga makes people feel with nature. I then needed to reflect that right away by having my ([Hero Image](https://www.pexels.com/photo/photo-of-blue-sea-1430677/)) present such an environment. The website is intended for public use so there is no need to **"pay"** a subscription in order to sign up for the courses. Considering the times we are living in where people are working remotely from home and keeping a distance provided a great oppotunity to teach yoga from the comfort of your mobile or laptop device.-->
 
 
 
@@ -7,7 +47,7 @@ Is a website intended for audiences that are interested in learning body/mind se
 
 ([Emelie Sandberg](https://www.emeliesandberg.se/))-->
 
-## Features
+<!--## Features
 
 ### Existing Features
 
@@ -15,7 +55,7 @@ Is a website intended for audiences that are interested in learning body/mind se
 * A footer page across all pages that display a sign-up form
 <!--Add footer image when completed-->
 
-![](docs/nav-bar.jpg)
+<!--![](docs/nav-bar.jpg)
 
 ## The Landing Page Image 
 
@@ -46,7 +86,7 @@ Is a website intended for audiences that are interested in learning body/mind se
 
 ![](docs/header-hero-image.jpg)-->
 
-* ## Me Section
+<!--* ## Me Section
     * This section is about the (Yoga Instructor) **Emelie Sandberg**
     * It provides a snippet of information about her with a hyperlink to her biography that can also be find in the navigation bar
 
@@ -63,7 +103,7 @@ Is a website intended for audiences that are interested in learning body/mind se
     * My current footer page only has a Newsletter sign-up form. The reason for this is because I have my social-media tabs at the top of the page so there was no reason to include them again at the bottom
     *  Since the location functions remotely there was no need to include an address
 
-![](docs/footer-page.jpg)
+![](docs/footer-page.jpg)-->
 
 
 

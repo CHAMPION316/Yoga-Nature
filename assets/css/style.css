@@ -133,7 +133,7 @@ div #logo {
   z-index: 1;
 }
 
-#border-green {
+/*#border-green {
   position: absolute;
   width: 300px;
   height: 300px;
@@ -141,7 +141,7 @@ div #logo {
   margin: 147px 0 0 268px;
   animation: roll 3s infinite;
   transform: rotate(30deg);
-}
+}*/
 
 #emelie-image {
   display: relative;
@@ -532,9 +532,17 @@ footer {
     width: 350px;
   }
 
+  .video-background {
+    height: 680px;
+  }
+
   .video-color-container {
     height: 2400px;
-    width: 60%;
+    width: 57%;
+  }
+
+  .black-top-border {
+    border-top: 2px solid black;
   }
 }
 
@@ -542,6 +550,10 @@ footer {
 @media screen and (min-width: 1024px) and (max-width: 1366px) {
   .bluetext-background {
     margin: 50px 0 0 102px;
+  }
+
+  .black-top-border {
+    border-top: 2px solid black;
   }
 
   .emelie-image2 {
@@ -585,3 +597,138 @@ footer {
     font-size: 130%;
   }
 } 
+
+/* For smaller screens size from 320px wide and down */
+@media only screen and (max-device-width: 320px) {
+  /*html{
+    width: 100vw;
+    overflow-x: hidden;
+  }*/
+  
+  #menu li {
+    margin: 7px 0 0 10px;
+  }
+  
+  #menu a {
+    font-size: 14px;
+  }
+
+  #social-media a {
+    font-size: 17px;
+  }
+
+  #social-media li {
+    margin: 12px 14px 0 0;
+  }
+
+  #head-image {
+    height: 285px;
+  }
+
+  div #logo {
+    font-size: 110%;
+    margin: 20px 0 0 54px;
+  }
+
+  
+
+  /*#head-image > img {
+    width: 100%;
+    height: 100px;
+  }*/
+
+  #cover-text {
+    width: 85%;
+    padding: none;
+    font-size: 10px;
+    height: 105px;
+    margin: 10px 0 0 13px;
+  }
+
+  #me {
+    overflow: hidden;
+  }
+
+  #emelie-image {
+    margin: 10px 0 0 35px;
+  }
+
+  #emelie-image > img {
+    width: 250px;
+    height: 200px;
+  }
+
+  #emelie-image > h4 {
+    font-size: 180%;
+    text-align: center;
+    letter-spacing: 0;
+    margin-top: -1px;
+  }
+
+  #emelie-image span {
+    padding: 3px 37px;
+  }
+
+  .emelie-name {
+    float: none;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  .emelie-name > h3 {
+    font-size: 115%;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    padding: 2px 5px;
+  }
+
+  .emelie-name > a > h4 {
+    margin-top: 12px;
+  }
+
+  .emelie-name > p {
+    padding: 0 18px
+  }
+
+  .yoga-course {
+    overflow: hidden;
+    height: 350px;
+  }
+
+  .bluetext-background {
+    width: 260px;
+    margin: 0 0 0 30px;
+    height: 313px;
+    float: none;
+    padding: 0;
+  }
+
+  .bluetext-background > h3 {
+    font-size: 118%;
+  }
+
+  .bluetext-background > p {
+    font-size: 98%;
+    padding: 0 3px;
+  }
+
+  .emelie-image2 {
+    display: none;
+  }
+
+  footer {
+    height: 320px;
+
+  }
+
+  .signup-form {
+    max-width: 250px;
+  }
+
+
+
+  /*.form-all {
+    width : 400px!important;
+  }*/
+}

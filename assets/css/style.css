@@ -533,12 +533,12 @@ footer {
   }
 
   footer {
-    height: 580px;
+    height: 295px;
   }
 
   .black-top-border {
     border-top: 2px solid black;
-    height: 585px;
+    height: 295px;
   }
   
 }
@@ -550,12 +550,11 @@ footer {
   }
 
   footer {
-    height: 920px;
+    height: 300px;
   }
 
   .black-top-border {
     border-top: 2px solid black;
-    height: 920px;
   }
 
   .emelie-image2 {

@@ -333,6 +333,15 @@ footer {
   margin-top: 10px;
 }
 
+.center-footer >h4 {
+  background-color: rgb(247, 234, 215);
+}
+
+.center-footer > h5 {
+  font-size: 10px;
+  margin-top: 5px;
+}
+
 .signup-form {
   color: rgb(0, 0, 0);
   background-color: rgb(247, 234, 215);
@@ -538,12 +547,12 @@ footer {
   }
 
   footer {
-    height: 295px;
+    height: 310px;
   }
 
   .black-top-border {
     border-top: 2px solid black;
-    height: 295px;
+    height: 310px;
   }
 }
 
@@ -569,7 +578,7 @@ footer {
   }
 
   footer {
-    height: 300px;
+    height: 310px;
   }
 
   .black-top-border {
@@ -727,11 +736,11 @@ footer {
   }
 
   footer {
-    height: 320px;
+    height: 335px;
   }
 
   .black-top-border {
-    height: 320px;
+    height: 335px;
   }
 
   .signup-form {

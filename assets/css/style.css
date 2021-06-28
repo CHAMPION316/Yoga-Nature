@@ -9,7 +9,7 @@
 
 body {
   font-family: sans-serif;
-  font-weight: 350px;
+  font-weight: 350;
   color: black;
 }
 
@@ -47,7 +47,7 @@ body {
   text-transform: capitalize;
   text-decoration: none;
   font-family: "Mallanna", sans-serif;
-  font-weight: 530;
+  /*font-weight: 530;*/
   color: inherit;
   font-size: 25px;
 }
@@ -107,7 +107,8 @@ div #logo {
   margin: 20px 0 0 185px;
 }
 
-#logo, h1 {
+#logo,
+h1 {
   display: inline-block;
   text-align: center;
   padding: 5px;
@@ -134,7 +135,7 @@ div #logo {
 }
 
 #emelie-image {
-  display: relative;
+  /*display: relative;*/
   float: left;
   margin: 70px 0 0 134px;
 }
@@ -196,9 +197,16 @@ div #logo {
 /* ------------------create color changes for link text #emelie-name > a */
 
 @keyframes wheelHueColor {
-  from, to { color: rgb(92, 176, 233); }
-  10%      { color: rgb(228, 99, 196); }
-  20%      { color: rgb(209, 64, 173); }
+  from,
+  to {
+    color: rgb(92, 176, 233);
+  }
+  10% {
+    color: rgb(228, 99, 196);
+  }
+  20% {
+    color: rgb(209, 64, 173);
+  }
 }
 
 #emelie-bio {
@@ -480,7 +488,7 @@ footer {
   .emelie-name {
     margin: 80px 40px 0 0;
   }
-  
+
   .biography-background {
     height: 1250px;
   }
@@ -503,7 +511,6 @@ footer {
   .biography-info > p {
     margin: 0 auto;
     width: 90%;
-
   }
 
   .biography-info > h4 {
@@ -518,7 +525,7 @@ footer {
   .emelie-image2 {
     margin: 50px 24px 0 0;
   }
-  
+
   .emelie-image2 > img {
     width: 350px;
   }
@@ -540,7 +547,6 @@ footer {
     border-top: 2px solid black;
     height: 295px;
   }
-  
 }
 
 /* ................................................................max screen sizes 1024px iPad pro 12.9 */
@@ -560,11 +566,11 @@ footer {
   .emelie-image2 {
     margin: 50px 102px 0 0;
   }
-  
+
   .biography-background {
     height: 1800px;
   }
-  
+
   .biography-imagedate {
     float: none;
   }
@@ -573,7 +579,7 @@ footer {
     width: 700px;
     height: 900px;
   }
-  
+
   .biography-info {
     float: none;
     text-align: center;
@@ -597,15 +603,15 @@ footer {
     margin: 20px auto;
     font-size: 130%;
   }
-} 
+}
 
 /* ---------------------------------------------For smaller screens size 320px */
 @media only screen and (max-device-width: 320px) {
-/* container sizing */
+  /* container sizing */
   #menu li {
     margin: 7px 0 0 10px;
   }
-  
+
   #menu a {
     font-size: 14px;
   }
@@ -678,7 +684,7 @@ footer {
   }
 
   .emelie-name > p {
-    padding: 0 18px
+    padding: 0 18px;
   }
 
   .yoga-course {
@@ -734,10 +740,10 @@ footer {
   .biography-background {
     height: 1130px;
   }
-  
+
   .biography-imagedate > img {
     width: 250px;
-    height: 320px
+    height: 320px;
   }
 
   .biography-info > h2 {
@@ -748,5 +754,4 @@ footer {
     font-size: 15px;
     line-height: 1.7rem;
   }
-
 }

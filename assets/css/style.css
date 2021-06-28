@@ -102,14 +102,20 @@ div #logo {
   font-family: "Rajdhani", sans-serif;
   font-size: 229%;
   color: rgb(0, 0, 0);
-  border: 3px solid black;
-  margin: 20px 0 0 185px;
+  /*border: 3px solid black;
+  margin: 20px 0 0 185px*/
 }
 
 #logo,
 h1 {
-  display: inline-block;
+  /*display: inline-block;*/
+  /*text-align: center;*/
+  padding: 10px;
   text-align: center;
+}
+
+#logo > h1 > span {
+  border: 2px solid black;
   padding: 5px;
 }
 
@@ -463,9 +469,9 @@ footer {
 /* For larger to medium screens size from 768px wide and down */
 /* ipad */
 @media screen and (max-width: 768px) {
-  #logo {
+  /*#logo {
     margin: 20px 0 0 174px;
-  }
+  }*/
 
   #cover-text {
     float: none;
@@ -543,9 +549,21 @@ footer {
 
 /* ................................................................max screen sizes 1024px iPad pro 12.9 */
 @media screen and (min-width: 1024px) and (max-width: 1366px) {
-  div #logo {
+  /*div #logo {
     margin: 20px 0 0 0;
+  }*/
+
+  #cover-text {
+    margin: 50px auto 0;
+    float: none;
+    height: 190px;
   }
+
+  #cover-text > p {
+    text-align: center;
+    line-height: 190%;
+  }
+
   .bluetext-background {
     margin: 50px 0 0 102px;
   }
@@ -625,7 +643,7 @@ footer {
 
   div #logo {
     font-size: 110%;
-    margin: 20px 0 0 54px;
+    /*margin: 20px 0 0 54px;*/
   }
 
   #cover-text {

@@ -12,6 +12,9 @@ body {
   color: black;
 }
 
+/* --------------------------------------------------- index.html */
+/* --------------------------------------------------- container */
+
 #container {
   width: 100%;
   height: 40px;
@@ -46,7 +49,6 @@ body {
   text-transform: capitalize;
   text-decoration: none;
   font-family: "Mallanna", sans-serif;
-  /*font-weight: 530;*/
   color: inherit;
   font-size: 25px;
 }
@@ -102,14 +104,9 @@ div #logo {
   font-family: "Rajdhani", sans-serif;
   font-size: 229%;
   color: rgb(0, 0, 0);
-  /*border: 3px solid black;
-  margin: 20px 0 0 185px*/
 }
 
-#logo,
-h1 {
-  /*display: inline-block;*/
-  /*text-align: center;*/
+#logo, h1 {
   padding: 10px;
   text-align: center;
 }
@@ -118,6 +115,8 @@ h1 {
   border: 2px solid black;
   padding: 5px;
 }
+
+/*--------------------------------------------------- ME SECTION */
 
 #me {
   width: 100%;
@@ -180,6 +179,7 @@ h1 {
 
 .emelie-name > a {
   text-decoration: none;
+  /*----------------------------------------------------------- COLOR ANIMATION */
   animation: wheelHueColor 3s infinite;
   transform: translateY(-50%);
 }
@@ -333,7 +333,7 @@ footer {
   margin-top: 10px;
 }
 
-.center-footer >h4 {
+.center-footer > h4 {
   background-color: rgb(247, 234, 215);
 }
 
@@ -388,7 +388,7 @@ footer {
   border: 1px solid black;
 }
 
-/* ----------------------------------------------------------videos.html */
+/* ----------------------------------------------------------VIDEOS.HTML */
 
 .video-background {
   width: 100%;
@@ -415,19 +415,11 @@ footer {
   flex-wrap: wrap;
 }
 
-/*.video-letters-spacing {
-  
-}*/
-
 .video-letters-spacing h4 {
   text-align: center;
 }
 
-/*-----------------------------------------------------keyframes animation*/
-
-
-
-/* -------------------------------------------------------Biography page */
+/* -------------------------------------------------------BIOGRAPHY.HTML */
 
 .biography-background {
   width: 100%;
@@ -473,22 +465,17 @@ footer {
   margin-top: 40px;
 }
 
-/* -------------------------------------------------Media queries */
+/* -------------------------------------------------MEDIA QUERIES */
 
-/* For larger to medium screens size from 768px wide and down */
-/* ipad */
+/* ----------------------------------For larger to medium screens size from 768px wide, iPad */
+
 @media screen and (max-width: 768px) {
-  /*#logo {
-    margin: 20px 0 0 174px;
-  }*/
-
   #cover-text {
     float: none;
     margin: 54px auto 36px;
   }
 
   #emelie-image {
-    /*float: left;*/
     margin: 80px 0 0 40px;
   }
 
@@ -627,7 +614,7 @@ footer {
   }
 }
 
-/* ---------------------------------------------For smaller screens size 320px */
+/* ---------------------------------------------For smaller screens size 320px iPhone 5/SE */
 @media only screen and (max-device-width: 320px) {
   /* container sizing */
   #menu li {

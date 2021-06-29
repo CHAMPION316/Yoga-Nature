@@ -447,7 +447,7 @@ footer {
 }
 
 .biography-info > h2 {
-  margin-left: 535px;
+  text-align: center;
   font-family: "Mallanna", sans-serif;
   font-size: 3rem;
 }
@@ -848,7 +848,11 @@ footer {
 
   /* --------------------------------------------------------biography.html 320px media query */
   .biography-background {
-    height: 1130px;
+    height: 1020px;
+  }
+
+  .biography-imagedate {
+    float: none;
   }
 
   .biography-imagedate > img {
@@ -856,12 +860,24 @@ footer {
     height: 320px;
   }
 
+  .biography-info {
+    text-align: center;
+    margin-right: 0;
+  }
+
   .biography-info > h2 {
     font-size: 1.8rem;
   }
 
   .biography-info > p {
-    font-size: 15px;
-    line-height: 1.7rem;
+    font-size: 11px;
+    margin-left: 0;
+    line-height: 2rem;
+    padding: 0 10px;
+  } 
+
+  .biography-info > h4 {
+    margin-left: 0;
+    margin-top: 10px;
   }
 }

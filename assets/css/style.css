@@ -496,7 +496,7 @@ footer {
 
 /* ----------------------------------For larger to medium screens size from 768px wide, iPad */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (max-width: 834px) {
   #cover-text {
     float: none;
     margin: 54px auto 36px;
@@ -571,7 +571,7 @@ footer {
 }
 
 /* ................................................................max screen sizes 1024px iPad pro 12.9 */
-@media screen and (min-width: 834px) and (max-width: 1024px) {
+@media screen and /*(min-width: 834px) and*/ (max-width: 1024px) {
   #cover-text {
     margin: 50px auto 0;
     float: none;

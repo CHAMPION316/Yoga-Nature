@@ -496,7 +496,7 @@ footer {
 
 /* ----------------------------------For larger to medium screens size from 768px wide, iPad */
 
-@media screen and (max-width: 768px) and (max-width: 834px) {
+@media screen and (width: 768px) {
   #cover-text {
     float: none;
     margin: 54px auto 36px;
@@ -570,8 +570,83 @@ footer {
   }
 }
 
+/* ----------------------------------------------------------------max screen sizes 834px iPad Pro 10.5 inch */
+@media screen and (width: 834px) {
+  #cover-text {
+    margin: 50px auto 0;
+    float: none;
+    height: 190px;
+  }
+
+  #cover-text > p {
+    text-align: center;
+    line-height: 190%;
+  }
+
+  #emelie-image {
+    margin: 70px 0 0 80px;
+  }
+
+  .emelie-name {
+    margin: 70px 60px 0 0;
+  }
+
+  .bluetext-background {
+    /*margin: 50px 0 0 102px;*/
+    margin: 50px 0 0 0;
+  }
+
+  .emelie-image2 {
+    margin: 50px 0 0 0;
+  }
+
+  footer {
+    height: 310px;
+  }
+
+  .black-top-border {
+    border-top: 2px solid black;
+  }
+
+  .biography-background {
+    height: 1800px;
+  }
+
+  .biography-imagedate {
+    float: none;
+  }
+
+  .biography-imagedate > img {
+    width: 700px;
+    height: 900px;
+  }
+
+  .biography-info {
+    float: none;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .biography-info > h2 {
+    margin: 0 auto;
+    font-size: 3rem;
+  }
+
+  .biography-info > p {
+    margin: 0 auto;
+    line-height: 3rem;
+    padding: 0 30px;
+    font-size: 25px;
+  }
+
+  .biography-info > h4 {
+    margin: 20px auto;
+    font-size: 130%;
+  }
+}
+
 /* ................................................................max screen sizes 1024px iPad pro 12.9 */
-@media screen and /*(min-width: 834px) and*/ (max-width: 1024px) {
+@media screen and (max-width: 1024px) and (min-width: 900px) {
   #cover-text {
     margin: 50px auto 0;
     float: none;
@@ -585,6 +660,10 @@ footer {
 
   .bluetext-background {
     margin: 50px 0 0 102px;
+  }
+
+  .emelie-name {
+    margin: 70px 100px 0 0;
   }
 
   footer {

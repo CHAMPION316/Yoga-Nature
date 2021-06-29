@@ -8,7 +8,6 @@
 
 body {
   font-family: sans-serif;
-  font-weight: 350;
   color: black;
 }
 
@@ -139,7 +138,6 @@ div #logo {
 }
 
 #emelie-image {
-  /*display: relative;*/
   float: left;
   margin: 70px 0 0 134px;
 }
@@ -179,7 +177,7 @@ div #logo {
 
 .emelie-name > a {
   text-decoration: none;
-  /*----------------------------------------------------------- COLOR ANIMATION */
+  /*-------------------------------------------------------------------------- COLOR ANIMATION */
   animation: wheelHueColor 3s infinite;
   transform: translateY(-50%);
 }
@@ -199,7 +197,7 @@ div #logo {
   padding: 5px;
 }
 
-/* ------------------create color changes for link text #emelie-name > a */
+/* ---------------------------------------------------create color changes for link text #emelie-name > a */
 
 @keyframes wheelHueColor {
   from,
@@ -308,7 +306,7 @@ div #logo {
   color: black !important;
 }
 
-/* footer */
+/* -------------------------------------------------------------------------------footer */
 
 footer {
   width: 100%;
@@ -467,6 +465,35 @@ footer {
 
 /* -------------------------------------------------MEDIA QUERIES */
 
+@media only screen and (max-width: 1600px) and (min-width: 1400px) {
+  #cover-text {
+    float: none;
+    margin: 60px auto 232px;
+  }
+
+  #emelie-image > img {
+    width: 400px;
+    height: 400px;
+  }
+
+  .emelie-name {
+    font-size: 155%;
+  }
+
+  .black-top-border {
+    border-top: 2px solid black;
+  }
+  .video-background {
+    height: 860px;
+  }
+
+  .video-color-container {
+    width: 95%;
+    height: 760px;
+    margin: 10px auto 0;
+  }
+}
+
 /* ----------------------------------For larger to medium screens size from 768px wide, iPad */
 
 @media screen and (max-width: 768px) {
@@ -544,11 +571,7 @@ footer {
 }
 
 /* ................................................................max screen sizes 1024px iPad pro 12.9 */
-@media screen and (min-width: 1024px) and (max-width: 1366px) {
-  /*div #logo {
-    margin: 20px 0 0 0;
-  }*/
-
+@media screen and (min-width: 834px) and (max-width: 1024px) {
   #cover-text {
     margin: 50px auto 0;
     float: none;
@@ -602,7 +625,6 @@ footer {
 
   .biography-info > p {
     margin: 0 auto;
-    width: none;
     line-height: 3rem;
     padding: 0 30px;
     font-size: 30px;
@@ -615,8 +637,7 @@ footer {
 }
 
 /* ---------------------------------------------For smaller screens size 320px iPhone 5/SE */
-@media only screen and (max-device-width: 320px) {
-  /* container sizing */
+@media only screen and (min-width: 320px) and (max-width: 414px) {
   #menu li {
     margin: 7px 0 0 10px;
   }
@@ -639,12 +660,10 @@ footer {
 
   div #logo {
     font-size: 110%;
-    /*margin: 20px 0 0 54px;*/
   }
 
   #cover-text {
     width: 85%;
-    padding: none;
     font-size: 10px;
     height: 105px;
     margin: 10px 0 0 13px;
@@ -655,7 +674,10 @@ footer {
   }
 
   #emelie-image {
-    margin: 10px 0 0 35px;
+    float: none;
+    margin: 0;
+    text-align: center;
+    margin-top: 20px;
   }
 
   #emelie-image > img {
@@ -703,7 +725,7 @@ footer {
 
   .bluetext-background {
     width: 260px;
-    margin: 0 0 0 30px;
+    margin: 0 auto 30px;
     height: 313px;
     float: none;
     padding: 0;

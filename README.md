@@ -1,4 +1,4 @@
-<h1 align="center">Yoga Nature</h1>
+<a href="https://champion316.github.io/Yoga-Nature/"><h1 align="center">Yoga Nature</h1> />
 
 [View the page here.](https://champion316.github.io/Yoga-Nature/biography.html)
 

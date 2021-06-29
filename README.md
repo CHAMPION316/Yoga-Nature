@@ -1,28 +1,98 @@
-<a href="https://champion316.github.io/Yoga-Nature/"><h1 align="center">Yoga Nature</h1> />
+# Yoga Nature
 
-[View the page here.](https://champion316.github.io/Yoga-Nature/biography.html)
+<img src="docs/responsive-image.jpg">
 
-Is a website intended for audiences that are interested in learning body/mind self-improvement techniques through yoga. This will be done by providing an instructor who is certified in yoga and will demonstrate the self-improvement techniques through recorded videos.  
+Is a website intended for audiences that are interested in learning body/mind self-improvement techniques through yoga. This will be done by providing an instructor who will demonstrate the self-improvement techniques through recorded videos.  
 
-<h2>User Experience (UX)</h2>
+You can visit the deployed website [here](https://champion316.github.io/Yoga-Nature/).
 
-* ### User Stories
-    * #### First Time Visitor Goals
-        a. As a first time visitor I want to know what it is that makes this yoga page different than any other.
-        
-        b. Who is teaching the material and how much experience do they have.
-        
-        c. How much does it cost?
+## 1. UX
 
-    * ### Returning Visitor Goals
-        a. Can I contact the instructor if I have any questions?
-        
-        b. Is the material being updated at least on weekly basis? 
-    
-    * ### Frequent User Goals 
-        a. Material that is really benefiting their overall health.
+#### 1.1. Project Goals
 
-        b. Newsletter material is constantly providing more resources about yoga.
+This website was designed for individuals all over the world that are interested in learning yoga for free without paying for classes. The instructor is very knowledgeable and teaches for the passion. Videos will be posted weekly with new material which is how you keep an audience coming to the website. 
+
+#### 1.2. User Stories
+
+- As an instructor, I want to be able to get as much people intersted.
+- As an instructor, I want word of mouth to spread.
+- As an instructor, I want people to do yoga in their own time without me there.
+- As a person, I would like to know about the instructor.
+- As a person, I would like to contact the instructor if I have any questions.
+- As a reguar customer, I want more material to keep me coming to the website.
+- As a potential client, I would like to attempt a few of the course videos to see how it makes me feel.
+- As a potential client, I want to know if this really benefits my overall health.
+
+<!--FINISH THE WIREFRAMES-->
+
+
+## 2. Features
+
+### 2.1. Existing features
+
+**The Header** includes:
+
+- **Websites Name**: allows the user to know that they are in the main page.
+- **Navigation Bar**: allows users to navigate with simplicity.
+- **Social**: allows users to easily identify other platforms where they can learn more about the business or the owner herself.
+- **Logo**: allows users to feel attuned with body and mind when performing yoga.
+
+**The Footer** includes:
+
+- **Contact Details**: includes a contact email to contact the owner.
+- **Sign-up Form**: Newsletter so clients can stay up to date with new material and more.
+
+Header and Footer appear on every page of the website.
+
+
+**Home Page** includes:
+
+- **My Story Button**:users learn a little about the instructor and are taken to the biography page as well.
+- **Learn More**: this is where users will learn for the first time that all course videos will be absolutely FREE!
+- **Sign-up Form**: allows users to sign-up for weekly updates to the lastest videos and any news relating with the world of yoga.
+
+**Video Page** includes:
+
+- **Lessons**: well formatted videos where the user can view them on the owners page with the name of each lesson. 
+- **Sign-up Form**: is always at the bottom of each page for when the user is ready to commit to the newsletter.
+
+**Biography Page** includes:
+
+- **Brief History**: about the instructors life, who she is and how she got here.
+- **Sign-up Form**: is always at the bottom of each page for when the user is ready to commit to the newsletter.
+
+### 2.2. Features left to implement in the future
+
+- Add sections that will separate the videos as the libray grows by dates and categories.
+- Be able to submit the form and receive a confirmation when signing up for the newsletter.
+- Add a featured page for testimonials on clients that have experienced positive changes.
+- Add a section with testimonials and customers' reviews.
+
+---
+
+## 3. Technologies used
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5) - provides the content and structure for the website.
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - styling for my website.
+- [Balsamiq](https://balsamiq.com/) - used to create the project's wireframes.
+- [Gitpod](https://gitpod.io/) - used to develop the website in the beginning. 
+- [Visual Studio Code](https://code.visualstudio.com/download) - used to develop the website outside of Gitpod.
+- [GitHub](https://github.com/) - used to host the project.
+- [Google Fonts](https://fonts.google.com/) - used to provide my fonts (font-family: 'Mallanna', 'Rajdhani')
+- [Font Awesome](https://fontawesome.com/) - used font awesome to add and emoji to the 'sign-up form' in the footer.
+- [Pexel](https://www.pexels.com/) - used to get the hero image of the beach in the header.
+- [Am I Responsive?](http://ami.responsivedesign.is/) - used to present the site on different devices.
+- [HTML Validator](https://validator.w3.org/) - used to find errors that don't belong in my HTML code.
+- [CSS Validator](https://jigsaw.w3.org/css-validator/) - used to find erros that don't belong in my CSS code.
+
+
+
+
+
+
+
+
+
 
 * ### Design
     * #### Color Scheme

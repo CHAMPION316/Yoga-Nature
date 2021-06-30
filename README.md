@@ -1,6 +1,6 @@
 <a href="https://champion316.github.io/Yoga-Nature/"><h1 align="center">Yoga Nature</h1></a>
 
-<img src="docs/responsive-image.jpg">
+<img src="readme-files/responsive-image.jpg">
 
 Is a website intended for audiences that are interested in learning body/mind self-improvement techniques through yoga. This will be done by providing an instructor who will demonstrate the self-improvement techniques through recorded videos.  
 
@@ -42,20 +42,24 @@ I used [Balsamiq](https://balsamiq.com/) to create all my wireframes:
 
 #### 2.1. Existing features
 
-All of my pages consist of the same navigation menu bar and footer. This format allows the user to understand where everything is located at all times for simplicity. My color palette was created from my [hero image](readme-files/collage.png). I decided to use 3 colors which are as follows in hexadecimal.
+All of my pages consist of the same navigation menu bar and footer. This format allows the user to understand where everything is located at all times for simplicity. My color palette was created from my [hero image](readme-files/hero-beach-image.jpg). I decided to use 3 colors listed below in hexadecimal.
     
 * `#aec6de`
 * `#a3e3cb`
 * `#f7ead7`
 
-**The Header** includes:
+**The color palette** was done by [coolors](https://coolors.co/) as seen by the image here [collage](readme-files/collage.png)
+
+
+[**The Header**](readme-files/header-hero-image.jpg) includes:
 
 - **Websites Name**: allows the user to know that they are in the main page.
 - **Navigation Bar**: allows users to navigate with simplicity.
+    - [Nav-Bar Image](readme-files/nav-bar.jpg)
 - **Social**: allows users to easily identify other platforms where they can learn more about the business or the owner herself.
 - **Logo**: allows users to feel attuned with body and mind when performing yoga.
 
-**The Footer** includes:
+[**The Footer**](readme-files/footer-page.jpg) includes:
 
 - **Contact Details**: includes a contact email to contact the owner.
 - **Sign-up Form**: newsletter so clients can stay up to date with new material and more.
@@ -63,8 +67,8 @@ All of my pages consist of the same navigation menu bar and footer. This format 
 
 **Home Page** includes:
 
-- **My Story Button**: users learn a little about the instructor and are taken to the biography page as well.
-- **Learn More**: this is where users will learn for the first time that all course videos will be absolutely **FREE!**
+- [**My Story Button**](readme-files/emelie-me-section.jpg): users learn a little about the instructor and are taken to the biography page as well.
+- [**Watch Now Button**](readme-files/emelie-videolink-section.jpg): this is where users will learn for the first time that all course videos will be absolutely **FREE!**
 - **Sign-up Form**: allows users to sign-up for weekly updates to the lastest videos and any news relating with the world of yoga.
 
 **Video Page** includes:

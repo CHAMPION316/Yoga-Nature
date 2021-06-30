@@ -123,6 +123,7 @@ div #logo {
   position: relative;
   font-family: inherit;
   background-color: rgb(247, 234, 215);
+  overflow: hidden;
 }
 
 #instructor {
@@ -249,6 +250,7 @@ div #logo {
   width: 100%;
   background-color: rgb(174, 198, 222);
   position: relative;
+  overflow: hidden;
 }
 
 .emelie-image2 {
@@ -465,7 +467,8 @@ footer {
 
 /* -------------------------------------------------MEDIA QUERIES */
 
-@media only screen and (max-width: 1600px) and (min-width: 1400px) {
+/*@media only screen and (max-width: 1600px) and (min-width: 1400px) {*/
+@media only screen and (min-width: 1368px) and (max-width: 1600px) {
   #cover-text {
     float: none;
     margin: 60px auto 232px;
@@ -493,6 +496,7 @@ footer {
     margin: 10px auto 0;
   }
 }
+
 
 /* ----------------------------------For larger to medium screens size from 768px wide, iPad */
 

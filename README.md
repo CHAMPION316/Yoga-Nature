@@ -34,13 +34,19 @@ I used [Balsamiq](https://balsamiq.com/) to create all my wireframes:
 |[Video Page](wireframes/desktop-vp.png)|[Video Page](wireframes/tablet-vp.png)|[Video Page](wireframes/phone-vp.png)|
 |[Bio Page](wireframes/desktop-bp.png)|[Bio Page](wireframes/tablet-bp.png)|[Bio Page](wireframes/phone-bp.png)|
 
-
+----
 
 
 
 ## 2. Features
 
 #### 2.1. Existing features
+
+All of my pages consist of the same navigation menu bar and footer. This format allows the user to understand where everything is located at all times for simplicity. My color palette was created from my [hero image](readme-files/collage.png). I decided to use 3 colors which are as follows in hexadecimal.
+    
+* `#aec6de`
+* `#a3e3cb`
+* `#f7ead7`
 
 **The Header** includes:
 
@@ -53,8 +59,6 @@ I used [Balsamiq](https://balsamiq.com/) to create all my wireframes:
 
 - **Contact Details**: includes a contact email to contact the owner.
 - **Sign-up Form**: newsletter so clients can stay up to date with new material and more.
-
-Header and Footer appear on every page of the website.
 
 
 **Home Page** includes:
@@ -93,13 +97,18 @@ Header and Footer appear on every page of the website.
 - [Google Fonts](https://fonts.google.com/) - used to provide my fonts (font-family: 'Mallanna', 'Rajdhani')
 - [Font Awesome](https://fontawesome.com/) - used font awesome to add an emoji to the 'sign-up form' in the footer.
 - [Pexel](https://www.pexels.com/) - used to get the hero image of the beach in the header.
+- [Coolors](https://coolors.co/) - used to create the color palette for my whole website.
 - [Am I Responsive?](http://ami.responsivedesign.is/) - used to present the site on different devices.
 - [HTML Validator](https://validator.w3.org/) - used to find errors that don't belong in my HTML code.
 - [CSS Validator](https://jigsaw.w3.org/css-validator/) - used to find errors that don't belong in my CSS code.
 
+----
+
 ## 4. Testing
 
-- The testing process can be seen [here](TESTING.md).
+- The testing process was done on a separate file [TESTING.md](TESTING.md)
+
+----
 
 ## 5. Deployment
 

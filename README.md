@@ -1,4 +1,4 @@
-# Yoga Nature
+<a href="https://champion316.github.io/Yoga-Nature/"><h1 align="center">Yoga Nature</h1></a>
 
 <img src="docs/responsive-image.jpg">
 
@@ -24,11 +24,23 @@ This website was designed for individuals all over the world that are interested
 - As a potential client, I want to know if this really benefits my overall health.
 
 <!--FINISH THE WIREFRAMES-->
+#### 1.3. Wireframes
+I used [Balsamiq](https://balsamiq.com/) to create all my wireframes:
+
+|    Desktop   |    Tablet    |    Mobile    |
+|    :----:    |     :----:   |    :----:    |
+|[Home Page](wireframes/desktop-hp.png)|[Home Page](wireframes/tablet-hp.png)|[Home Page](wireframes/phone-hp.png)|
+|[Home Page Image 2](wireframes/desktop-hp2.png)|[Home Page Image 2](wireframes/tablet-hp2.png)|[Home page Image 2](wireframes/phone-hp2.png)|
+|[Video Page](wireframes/desktop-vp.png)|[Video Page](wireframes/tablet-vp.png)|[Video Page](wireframes/phone-vp.png)|
+|[Bio Page](wireframes/desktop-bp.png)|[Bio Page](wireframes/tablet-bp.png)|[Bio Page](wireframes/phone-bp.png)|
+
+
+
 
 
 ## 2. Features
 
-### 2.1. Existing features
+#### 2.1. Existing features
 
 **The Header** includes:
 
@@ -83,7 +95,7 @@ Header and Footer appear on every page of the website.
 - [Pexel](https://www.pexels.com/) - used to get the hero image of the beach in the header.
 - [Am I Responsive?](http://ami.responsivedesign.is/) - used to present the site on different devices.
 - [HTML Validator](https://validator.w3.org/) - used to find errors that don't belong in my HTML code.
-- [CSS Validator](https://jigsaw.w3.org/css-validator/) - used to find erros that don't belong in my CSS code.
+- [CSS Validator](https://jigsaw.w3.org/css-validator/) - used to find errors that don't belong in my CSS code.
 
 ## 4. Testing
 

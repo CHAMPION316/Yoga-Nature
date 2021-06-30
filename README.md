@@ -71,12 +71,12 @@ All of my pages consist of the same navigation menu bar and footer. This format 
 - [**Watch Now Button**](readme-files/emelie-videolink-section.jpg): this is where users will learn for the first time that all course videos will be absolutely **FREE!**
 - **Sign-up Form**: allows users to sign-up for weekly updates to the lastest videos and any news relating with the world of yoga.
 
-**Video Page** includes:
+[**Video Page**](readme-files/video-lessons.jpg) includes:
 
 - **Lessons**: well formatted videos where the user can view them on the owners page with the name of each lesson. 
 - **Sign-up Form**: is always at the bottom of each page for when the user is ready to commit to the newsletter.
 
-**Biography Page** includes:
+[**Biography Page**](readme-files/biography-image.jpg) includes:
 
 - **Brief History**: about the instructors life, who she is and how she got here.
 - **Sign-up Form**: is always at the bottom of each page for when the user is ready to commit to the newsletter.

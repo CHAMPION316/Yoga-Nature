@@ -14,7 +14,7 @@ This website was designed for individuals all over the world that are interested
 
 #### 1.2. User Stories
 
-- As an instructor, I want to be able to get as much people intersted.
+- As an instructor, I want to be able to get as much people interested.
 - As an instructor, I want word of mouth to spread.
 - As an instructor, I want people to do yoga in their own time without me there.
 - As a person, I would like to know about the instructor.
@@ -40,15 +40,15 @@ This website was designed for individuals all over the world that are interested
 **The Footer** includes:
 
 - **Contact Details**: includes a contact email to contact the owner.
-- **Sign-up Form**: Newsletter so clients can stay up to date with new material and more.
+- **Sign-up Form**: newsletter so clients can stay up to date with new material and more.
 
 Header and Footer appear on every page of the website.
 
 
 **Home Page** includes:
 
-- **My Story Button**:users learn a little about the instructor and are taken to the biography page as well.
-- **Learn More**: this is where users will learn for the first time that all course videos will be absolutely FREE!
+- **My Story Button**: users learn a little about the instructor and are taken to the biography page as well.
+- **Learn More**: this is where users will learn for the first time that all course videos will be absolutely **FREE!**
 - **Sign-up Form**: allows users to sign-up for weekly updates to the lastest videos and any news relating with the world of yoga.
 
 **Video Page** includes:
@@ -66,7 +66,7 @@ Header and Footer appear on every page of the website.
 - Add sections that will separate the videos as the libray grows by dates and categories.
 - Be able to submit the form and receive a confirmation when signing up for the newsletter.
 - Add a featured page for testimonials on clients that have experienced positive changes.
-- Add a section with testimonials and customers' reviews.
+- Add a section with testimonials and customer reviews.
 
 ---
 
@@ -79,7 +79,7 @@ Header and Footer appear on every page of the website.
 - [Visual Studio Code](https://code.visualstudio.com/download) - used to develop the website outside of Gitpod.
 - [GitHub](https://github.com/) - used to host the project.
 - [Google Fonts](https://fonts.google.com/) - used to provide my fonts (font-family: 'Mallanna', 'Rajdhani')
-- [Font Awesome](https://fontawesome.com/) - used font awesome to add and emoji to the 'sign-up form' in the footer.
+- [Font Awesome](https://fontawesome.com/) - used font awesome to add an emoji to the 'sign-up form' in the footer.
 - [Pexel](https://www.pexels.com/) - used to get the hero image of the beach in the header.
 - [Am I Responsive?](http://ami.responsivedesign.is/) - used to present the site on different devices.
 - [HTML Validator](https://validator.w3.org/) - used to find errors that don't belong in my HTML code.
@@ -87,7 +87,7 @@ Header and Footer appear on every page of the website.
 
 ## 4. Testing
 
-The testing process can be seen [here](TESTING.md).
+- The testing process can be seen [here](TESTING.md).
 
 ## 5. Deployment
 
@@ -119,10 +119,33 @@ To clone this project from GitHub:
 ## 6. Credits
 
 ### 6.1. Content
-The website and and written text was mostly done by me alone. 
+
+- The website and written text was mostly done by me alone. 
+- I took a lot of inspiration and ideas from [Pinterest](https://www.pinterest.com/)
+- I took the **changing colors** text code from [codepen](https://codepen.io/barbuduweb/pen/YqVBWZ) and modified it to fit my vision in color scheme.
 
 ### 6.2. Media
 
-The images of the yoga-instructor were taken by me personally since she is my wife and it just so happened that there was a yoga project involved. This is her personally website not designed by me. 
+### Images
+
+- The images of the yoga-instructor were taken by me personally since she is my wife and it just so happened that there was a yoga project as one of the options. If you want to know more about her here is a link to her actually website.
 
 [Emelie Sandberg](http://www.emeliesandberg.se/)
+
+- The hero-image I used for this site was obtained by [Pexels](https://www.pexels.com/)
+    -   [Beach Image](https://www.pexels.com/photo/photo-of-blue-sea-1430677/)
+
+### Videos
+
+- All videos were recorded by me and Emelie's friend who helped design them for this project.
+    - You can find the videos on my [YouTube](https://www.youtube.com/channel/UCsh0wTXZJC4tiRqwPnj2O7A/videos) channel.
+
+### 6.1. Acknowledgments
+
+- [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/?originalSubdomain=ng) for his honesty and direction during this whole project.
+- The [Code Institute](https://codeinstitute.net/) team.
+- Everyone that I communicated with over at [Slack](https://slack.com/intl/en-se/).
+- [Stackoverflow](https://stackoverflow.com/) for having answers when I need them.
+- [Google](https://google.com/) for being the best search engine in this day and age.
+- My wife Emelie and her friend Darija for making the yoga vidoes to my page.
+- My brother Ryan for testing the website on his phone and his wife's. 

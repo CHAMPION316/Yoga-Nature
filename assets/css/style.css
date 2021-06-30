@@ -467,8 +467,7 @@ footer {
 
 /* -------------------------------------------------MEDIA QUERIES */
 
-/*@media only screen and (max-width: 1600px) and (min-width: 1400px) {*/
-@media only screen and (min-width: 1368px) and (max-width: 1600px) {
+@media only screen and (max-width: 1600px) and (min-width: 1400px) {
   #cover-text {
     float: none;
     margin: 60px auto 232px;
@@ -833,6 +832,7 @@ footer {
 
   .black-top-border {
     height: 335px;
+    border-top: 2px solid black;
   }
 
   .signup-form {
